@@ -461,307 +461,262 @@
     ],
     "img": "https://imgur.com/a/wPMccdI"
   }
+],
+"spike": [
+  {
+    "name": "Spike",
+    "overview": "A kör elején a Spike-ot a támadók elé dobják, és összegyűjthetik azt. Egy ikon jelenik meg a hordozó arcképe alatt, és mindkét csapatot értesíti a rendszer, ha a Spike-hordozó meghal. A tüskét fegyverként hordják; a hordozó eldobhatja a Spike-ot, és csak más támadók vehetik fel. A földön lévő Spike látható a Mini-Térképen a támadók és a védők számára, amíg azt látják.",
+    "plant": "A Spike-ot egy kijelölt helyre lehet lerakni. A Védőket értesíti arról, hogy a Spike le van rakva. A rakás 4 másodpercig tart, és megszakítható. A hordozó nem tud mozogni a lerakás során.",
+    "defuse": "A védők megsemmisíthetik a Spike-ot. A megsemmisítés összesen 7 másodpercet vesz igénybe, és félbe szakítható. A megsemmisítés felénél van egy ellenőrző pont,ami 3.5 másodperc. Ha a közepétől kezded el felszedni akkor már csak 3.5 másodpercig kell szedned.",
+    "countdown": "A Spike 45 másodperces robbanási időzítővel rendelkezik, amelyet egy csipogó riasztás jelez, amely az időzítő robbanáshoz közelítve felgyorsul. A Spike ezután egy nagy sugárban felrobban, és megöli a közeli játékosokat."
+  }
+],
+"roundscredit": [
+  {
+    "name": "Kredit",
+    "firstround": "800 kredittel kezdesz a meccs elején",
+    "winround": "3000 kreditet kapsz egy nyert kör után",
+    "loseround": "1900-tól 2900-ig kapsz kreditet egy kikapott kör után",
+    "killcredit": "200 kreditet kapsz minden megölt ellenség után",
+    "spikeplant": "300 kreditet kap a csapatod minden bomba élesítéséért"
+  }
+],
+"maps": [
+  {
+    "name": "Bind",
+    "pic": "https://imgur.com/a/27FKL9z"
+  },
+  {
+    "name": "Haven",
+    "pic": "https://imgur.com/a/kEpQ8iz"
+  },
+  {
+    "name": "Split",
+    "pic": "https://imgur.com/a/n6mckQ0"
+  }
+],
+"shields": [
+  {
+    "name": "Kicsi Pajzs",
+    "price": "400 kredit",
+    "plushp": "25",
+    "description": "Az összes kapott sebzésnek 66%-át tompítja."
+  },
+  {
+    "name": "Nagy Pajzs",
+    "price": "1000 kredit",
+    "plushp": "50",
+    "description": "Az összes kapott sebzésnek 66%-át tompítja."
+  }
+],
+"valorantpoints": [
+  {
+    "name": "Valorant Pont",
+    "purchasingformat": "Rendes pénzből vehető a Valorant Pont. Forint, Dollár, Euró stb. Ez a régiódtól függ.",
+    "description": "A Valorant Pontok a Valorant 1. számú fizető eszköze kozmetikára (Skinek, fal firkák, ügynök tier szint feloldására) és Radianite Pontokra tudod költeni."
+  },
+  {
+    "name": "Radianite Pont",
+    "purchasingformat": "Megszerezhető Battle Pass-nak kijátszásával, vagy megvehető Valorant Pontokért",
+    "description": "A Valorant 2. fizető eszköze, amit skinek fejlesztésére tudsz szánni, mint például animációk megváltoztatására, kill effect-eket is tudsz vele venni, vagy akár egy adott skinre chromákat."
+  }
+],
+"skinknife": [
+  {
+    "name": "Imperium Kés",
+    "pic": "https://imgur.com/a/jqR4bBW",
+    "price": "2550 Valorant Pont"
+  },
+  {
+    "name": "Luxe Kés",
+    "pic": "https://imgur.com/a/KlL2AiS",
+    "price": "1750 Valorant Pont"
+  },
+  {
+    "name": "Reaver Kés",
+    "pic": "https://imgur.com/a/b4MWWUR",
+    "price": "3550 Valorant Pont"
+  },
+  {
+    "name": "Prism Kés",
+    "pic": "https://imgur.com/a/i6JQhZC",
+    "price": "2550 Valorant Pont"
+  }
+],
+"skinpistol": [
+  {
+    "name": "Imperium Classic",
+    "pic": "https://imgur.com/a/uvdkx7U",
+    "price": "1275 Valorant Pont"
+  },
+  {
+    "name": "Sage's Classic",
+    "pic": "https://imgur.com/a/9N0ksTY",
+    "price": "Sage 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Avalanche Classic",
+    "pic": "https://imgur.com/a/mU2sxbn",
+    "price": "1275 Valorant Pont"
+  },
+  {
+    "name": "Raze's Classic",
+    "pic": "https://imgur.com/a/4Lj5D4l",
+    "price": "Raze 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Viper's Shorty",
+    "pic": "https://imgur.com/a/OjHzsqY",
+    "price": "Viper 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Breach's Frenzy",
+    "pic": "https://imgur.com/a/rYXZr32",
+    "price": "Breach 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Phoenix's Frenzy",
+    "pic": "https://imgur.com/a/tCNt93x",
+    "price": "Phoenix 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Luxe Ghost Level 1",
+    "pic": "https://imgur.com/a/uvPtfOu",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Luxe Ghost Level 2",
+    "pic": "https://imgur.com/a/AbocZrA",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Luxe Ghost Level 3",
+    "pic": "https://imgur.com/a/aq3WLQ1",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Luxe Ghost Level 4",
+    "pic": "https://imgur.com/a/sqxTuxJ",
+    "price": "875 Valorant Pont" 
+  },
+  {
+    "name": "Cypher Ghost",
+    "pic": "https://imgur.com/a/V3y8NVK",
+    "price": "Cypher 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Omen's Ghost",
+    "pic": "https://imgur.com/a/fKNbXcW",
+    "price": "Omen 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Toy Ghost",
+    "pic": "https://imgur.com/a/WphsZ0r",
+    "price": "Nincs információ."
+  },
+  {
+    "name": "Prism Ghost",
+    "pic": "https://imgur.com/a/uQFtzXk",
+    "price": "1275 Valorant Pont"
+  },
+  {
+    "name": "Jett's Sheriff",
+    "pic": "https://imgur.com/a/9P8H1CC",
+    "price": "Jett 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Sova's Sheriff",
+    "pic": "https://imgur.com/a/0H2DxNG",
+    "price": "Sova 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name:": "Brimstone's Sheriff",
+    "pic": "https://imgur.com/a/OEbUAZA",
+    "price": "Brimstone 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+  },
+  {
+    "name": "Drips Sheriff",
+    "pic": "https://imgur.com/a/b5hNScz",
+    "price": "Nincs információ."
+  },
+  {
+    "name": "Reaver Sheriff",
+    "pic": "https://imgur.com/a/4PNJymy",
+    "price": "1775 Valorant Pont"
+  },
+  {
+    "name": "Ronin Sheriff",
+    "pic": "https://imgur.com/a/VGFRxhh",
+    "price": "1275 Valorant Pont"
+  }
+],
+"skinsmg": [
+  {
+    "name": "Stinger",
+    "description": "Jelenleg ehhez a fegyverhez még nincs skin."
+  },
+  {
+    "name": "Luxe Spectre Level 1",
+    "pic": "https://imgur.com/a/mXJF7P0",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Luxe Spectre Level 2",
+    "pic": "https://imgur.com/a/4SqRlF4",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Luxe Spectre Level 3",
+    "pic": "https://imgur.com/a/nKXTWvZ",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Luxe Spectre Level 4",
+    "pic": "https://imgur.com/a/abm3yWM",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Avalanche Spectre",
+    "pic": "https://imgur.com/a/b3S1XiT",
+    "price": "1275 Valorant Pont"
+  },
+  {
+    "name": "Toy Spectre",
+    "pic": "https://imgur.com/a/8EPqLn6",
+    "price": "Nincs Információ."
+  },
+  {
+    "name": "Toy Spectre", 
+    "pic": "https://imgur.com/a/cJMErIl",
+    "price": "1275 Valorant Pont"
+  }
+],
+"skinshotgun": [
+  {
+    "name": "Toy Bucky",
+    "pic": "https://imgur.com/a/SgOmAsV",
+    "price": "Nincs információ."
+  },
+  {
+    "name": "Luxe Judge Level 1",
+    "pic": "https://imgur.com/a/6QtolHR",
+    "price": "Nincs információ."
+  }
+],
+"skinrifle": [
+  {
+    "name": "Drips Bulldog",
+    "pic": "https://imgur.com/a/zC16Odb",
+    "price": "Nincs információ."
+  },
+  {
+    "name": "Ronin Bulldog",
+    "pic": "https://imgur.com/a/ZmJ6pqu",
+    "price": "875 Valorant Pont"
+  },
+  {
+    "name": "Guardian",
+    "description": "Jelenleg ehhez a fegyverhez még nincs skin."
+  }
 ]
-}
-
-{
-  "spike": [
-    {
-      "name": "Spike",
-      "overview": "A kör elején a Spike-ot a támadók elé dobják, és összegyűjthetik azt. Egy ikon jelenik meg a hordozó arcképe alatt, és mindkét csapatot értesíti a rendszer, ha a Spike-hordozó meghal. A tüskét fegyverként hordják; a hordozó eldobhatja a Spike-ot, és csak más támadók vehetik fel. A földön lévő Spike látható a Mini-Térképen a támadók és a védők számára, amíg azt látják.",
-      "plant": "A Spike-ot egy kijelölt helyre lehet lerakni. A Védőket értesíti arról, hogy a Spike le van rakva. A rakás 4 másodpercig tart, és megszakítható. A hordozó nem tud mozogni a lerakás során.",
-      "defuse": "A védők megsemmisíthetik a Spike-ot. A megsemmisítés összesen 7 másodpercet vesz igénybe, és félbe szakítható. A megsemmisítés felénél van egy ellenőrző pont,ami 3.5 másodperc. Ha a közepétől kezded el felszedni akkor már csak 3.5 másodpercig kell szedned.",
-      "countdown": "A Spike 45 másodperces robbanási időzítővel rendelkezik, amelyet egy csipogó riasztás jelez, amely az időzítő robbanáshoz közelítve felgyorsul. A Spike ezután egy nagy sugárban felrobban, és megöli a közeli játékosokat."
-    }
-  ]
-},
-{
-  "roundscredit": [
-    {
-      "name": "Kredit",
-      "firstround": "800 kredittel kezdesz a meccs elején",
-      "winround": "3000 kreditet kapsz egy nyert kör után",
-      "loseround": "1900-tól 2900-ig kapsz kreditet egy kikapott kör után",
-      "killcredit": "200 kreditet kapsz minden megölt ellenség után",
-      "spikeplant": "300 kreditet kap a csapatod minden bomba élesítéséért"
-    }
-  ]
-},
-{
-  "maps": [
-    {
-      "name": "Bind",
-      "pic": "https://imgur.com/a/27FKL9z"
-    }
-    {
-      "name": "Haven",
-      "pic": "https://imgur.com/a/kEpQ8iz"
-    }
-    {
-      "name": "Split",
-      "pic": "https://imgur.com/a/n6mckQ0"
-    }
-  ]
-},
-{
-  "shields": [
-    {
-      "name": "Kicsi Pajzs",
-      "price": "400 kredit",
-      "plushp": "25",
-      "description": "Az összes kapott sebzésnek 66%-át tompítja."
-    }
-    {
-      "name": "Nagy Pajzs",
-      "price": "1000 kredit",
-      "plushp": "50",
-      "description": "Az összes kapott sebzésnek 66%-át tompítja."
-    }
-  ]
-},
-{
-  "valorantpoints": [
-    {
-      "name": "Valorant Pont",
-      "purchasingformat": "Rendes pénzből vehető a Valorant Pont. Forint, Dollár, Euró stb. Ez a régiódtól függ.",
-      "description": "A Valorant Pontok a Valorant 1. számú fizető eszköze kozmetikára (Skinek, fal firkák, ügynök tier szint feloldására) és Radianite Pontokra tudod költeni."
-    }
-    {
-      "name": "Radianite Pont",
-      "purchasingformat": "Megszerezhető Battle Pass-nak kijátszásával, vagy megvehető Valorant Pontokért",
-      "description": "A Valorant 2. fizető eszköze, amit skinek fejlesztésére tudsz szánni, mint például animációk megváltoztatására, kill effect-eket is tudsz vele venni, vagy akár egy adott skinre chromákat."
-    }
-  ]
-},
-{
-  "skinknife": [
-    {
-      "name": "Imperium Kés",
-      "pic": "https://imgur.com/a/jqR4bBW",
-      "price": "2550 Valorant Pont"
-    }
-    {
-      "name": "Luxe Kés",
-      "pic": "https://imgur.com/a/KlL2AiS",
-      "price": "1750 Valorant Pont"
-    }
-    {
-      "name": "Reaver Kés",
-      "pic": "https://imgur.com/a/b4MWWUR",
-      "price": "3550 Valorant Pont"
-    }
-    {
-      "name": "Prism Kés",
-      "pic": "https://imgur.com/a/i6JQhZC",
-      "price": "2550 Valorant Pont"
-    }
-  ]
-},
-{
-  "skinpistol": [
-    {
-      "name": "Imperium Classic",
-      "pic": "https://imgur.com/a/uvdkx7U",
-      "price": "1275 Valorant Pont"
-    }
-    {
-      "name": "Sage's Classic",
-      "pic": "https://imgur.com/a/9N0ksTY",
-      "price": "Sage 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name": "Avalanche Classic",
-      "pic": "https://imgur.com/a/mU2sxbn",
-      "price": "1275 Valorant Pont"
-    }
-    {
-      "name": "Raze's Classic",
-      "pic": "https://imgur.com/a/4Lj5D4l",
-      "price": "Raze 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-
-
-
-
-    {
-      "name": "Viper's Shorty",
-      "pic": "https://imgur.com/a/OjHzsqY",
-      "price": "Viper 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-
-
-
-
-    {
-      "name": "Breach's Frenzy",
-      "pic": "https://imgur.com/a/rYXZr32",
-      "price": "Breach 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name": "Phoenix's Frenzy",
-      "pic": "https://imgur.com/a/tCNt93x",
-      "price": "Phoenix 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-
-
-
-
-    {
-      "name": "Luxe Ghost Level 1",
-      "pic": "https://imgur.com/a/uvPtfOu",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Luxe Ghost Level 2",
-      "pic": "https://imgur.com/a/AbocZrA",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Luxe Ghost Level 3",
-      "pic": "https://imgur.com/a/aq3WLQ1",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Luxe Ghost Level 4",
-      "pic": "https://imgur.com/a/sqxTuxJ",
-      "price": "875 Valorant Pont" 
-    }
-    {
-      "name": "Cypher Ghost",
-      "pic": "https://imgur.com/a/V3y8NVK",
-      "price": "Cypher 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name": "Omen's Ghost",
-      "pic": "https://imgur.com/a/fKNbXcW",
-      "price": "Omen 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name": "Toy Ghost",
-      "pic": "https://imgur.com/a/WphsZ0r",
-      "price": "Nincs információ."
-    }
-    {
-      "name": "Prism Ghost",
-      "pic": "https://imgur.com/a/uQFtzXk",
-      "price": "1275 Valorant Pont"
-    }
-
-
-
-
-    {
-      "name": "Jett's Sheriff",
-      "pic": "https://imgur.com/a/9P8H1CC",
-      "price": "Jett 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name": "Sova's Sheriff",
-      "pic": "https://imgur.com/a/0H2DxNG",
-      "price": "Sova 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name:": "Brimstone's Sheriff",
-      "pic": "https://imgur.com/a/OEbUAZA",
-      "price": "Brimstone 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
-    }
-    {
-      "name": "Drips Sheriff",
-      "pic": "https://imgur.com/a/b5hNScz",
-      "price": "Nincs információ."
-    }
-    {
-      "name": "Reaver Sheriff",
-      "pic": "https://imgur.com/a/4PNJymy",
-      "price": "1775 Valorant Pont"
-    }
-    {
-      "name": "Ronin Sheriff",
-      "pic": "https://imgur.com/a/VGFRxhh",
-      "price": "1275 Valorant Pont"
-    }
-  ]
-},
-{
-  "skinsmg": [
-    {
-      "name": "Stinger",
-      "description": "Jelenleg ehhez a fegyverhez még nincs skin."
-    }
-
-
-
-
-    {
-      "name": "Luxe Spectre Level 1",
-      "pic": "https://imgur.com/a/mXJF7P0",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Luxe Spectre Level 2",
-      "pic": "https://imgur.com/a/4SqRlF4",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Luxe Spectre Level 3",
-      "pic": "https://imgur.com/a/nKXTWvZ",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Luxe Spectre Level 4",
-      "pic": "https://imgur.com/a/abm3yWM",
-      "price": "875 Valorant Pont"
-    }
-    {
-      "name": "Avalanche Spectre",
-      "pic": "https://imgur.com/a/b3S1XiT",
-      "price": "1275 Valorant Pont"
-    }
-    {
-      "name": "Toy Spectre",
-      "pic": "https://imgur.com/a/8EPqLn6",
-      "price": "Nincs Információ."
-    }
-    {
-      "name": "Toy Spectre", 
-      "pic": "https://imgur.com/a/cJMErIl",
-      "price": "1275 Valorant Pont"
-    }
-  ]
-},
-{
-  "skinshotgun": [
-    {
-      "name": "Toy Bucky",
-      "pic": "https://imgur.com/a/SgOmAsV",
-      "price": "Nincs információ."
-    }
-
-
-
-
-    {
-      "name": "Luxe Judge Level 1",
-      "pic": "https://imgur.com/a/6QtolHR",
-      "price": "Nincs információ."
-    }
-  ]
-},
-{
-  "skinrifle": [
-    {
-      "name": "Drips Bulldog",
-      "pic": "https://imgur.com/a/zC16Odb",
-      "price": "Nincs információ."
-    }
-    {
-      "name": "Ronin Bulldog",
-      "pic": "https://imgur.com/a/ZmJ6pqu",
-      "price": "875 Valorant Pont"
-    },
-    {
-      "name": "Guardian",
-      "description": "Jelenleg ehhez a fegyverhez még nincs skin."
-    }
-  ]
 }
