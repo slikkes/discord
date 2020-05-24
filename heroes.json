@@ -1,336 +1,767 @@
 {
-    "weapons":[],
+  "weapons":[
+    {
+      "name": "Kés",
+      "description": "A taktikai kés egy közelharci fegyver, amelyet minden játékos kap, és nem dobhatja le. Kétféle támadással rendelkezik: az egyik gyors vágás, a másik pedig az éles ütés. Az elsődleges vágásnak három lengő kombinációja, míg a másodlagos vágás többet okoz egyetlen csapással. A fegyver dupla sérülést okoz az ellenfél hátán.",
+      "damage": "0-8 méter között elsődleges támadás (bal klikk) 50 másodlagos támadás (jobb klikk) 75",
+      "price": "ingyenes"
+    },
+    {
+      "name": "Classic",
+      "description": "A Classic a kezdő pisztoly, amelyet minden játékos megkap minden fordulóban.A pisztoly meglehetősen gyenge, de mivel ezzel a fegyverrel kezdesz, kiindulási fegyverként használhatod olyan körökben, ahol nincs elég pénzed más fegyver vásárlására, így megtakaríthathatsz kreditet, hogy később nagyobb/erősebb fegyvert tudj vásárolni a játékban.",
+      "damage": "0-30 méter között: fejre 78, testre 26, lábra 22; 30-50 méter között: fejre 66, testre 22, lábra 18",
+      "storagecapacity": "12",
+      "price": "ingyenes"
+    },
+    {
+      "name": "Shorty",
+      "description": "A Shorty a legolcsóbban vásárolható fegyver a játékban, 200 kreditbe kerül. Félautomata pisztoly, alacsony falütő erővel.Egy 'MiniShotgun'-nak mondható pisztoly ami 2 tölténnyel rendelkezik egy tárban és mellé kapsz 10 lőszert. Közelharcban az összes pisztoly alázza, mivel söréteket lő ki, így közel több sörét találja el az ellenséget, távolra ez már nem igaz, mert a sörétek szétszóródnak, ezért kevesebb eséllyel találod el az ellenfeled.",
+      "damage": "0-9 méter között: fejre 36, testre 12, lábra 10; 9-15 méter között: fejre 24, testre 8, lábra 6",
+      "storagecapacity": "2",
+      "price": "200 kredit"
 
-    "heroes":[
-      {
-        "name": "Breach",
-        "origin": "Svédország",
-        "description": "A Breach a kezdeményezés vadállata, amelynek képességei mindenen áthatolnak és kárt okoznak az ellenségnek. Támadás esetén nagy elõnyt jelent és a védekezésnél is, rengeteg eszközzel rendelkezik, hogy az ellenségek kétszer is elgondolkodjanak a támadásról.",
-        "ultimate": "7",
-        "skills": [
-          {
-            "name": "Utórengés",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Szerelj fel egy fúziós töltõt. És TÛZ! Falra tudod irányítani csak a képességet és aki a fal mögött volt, vagy a közelében annak sebzést tudsz okozni."
-        },
-        {
-            "name": "Gyulladáspont",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "Szerelj be egy vakító töltést, a falon át tudod alkalmazni, a hatása pedig az, hogy bevakítja az ellenfeleket akik belenéztek."
-        },
-        {
-            "name": "Törésvonal",
-            "type": "szignatúra",
-            "price": "ingyenes",
-            "description": "Szeizmikus robbanást tudsz okozni, amit feltudsz tölteni, hogy minnél messzebb tudd ellõni, ezt nem muszáj falra irányítani, de lehetõséged van rá. Akiket ér a képességed annak fekete lesz a képernyõje (nem teljesen csak annyira, hogy alig lásson) 'megszédül', nem tud rendesen mozogni, és a körbe nézés is hátrány lesz számára."
-        },
-        {
-            "name": "Hullámzó Mennydörgés",
-            "type": "Végsõ/Ultimate",
-            "price": "7 Ultimate pont",
-            "description": "Ugyan úgy nem kell a falra írányítanod, bármelyik irányba elnyomhatod, körübelül az egész pályán áthatol, ezzel sebzést, kábítást adsz az ellenfelednek akik benne voltak a képességedben."
-        }
-    ],
-        "img": "https://imgur.com/a/454qSb3"
     },
     {
-        "name": "Brimstone",
-        "origin": "Amerikai Egyedül Államok (USA)",
-        "description": "A Brimstone orbitális arzenálja biztosítja, hogy csapatának mindig elõnye legyen. Az a képessége, hogy pontosan és biztonságosan szállítsa el a képességeit az adott pontra. A páratlan csizmája, parancsnokká teszi õt.",
-        "ultimate": "6",
-        "skills": [
-          {
-            "name": "Gyújtó",
-            "type": "alap",
-            "price": "300 kredit",
-            "description": "Egy ellõhetõ képesség amit eltudsz lõni falra, onnan lepattan a földre és egy körben sebzést fog okozni, mivel egy gyújtógránátról beszélünk, ami fellángolja  a talajt."
-        },
-        {
-            "name": "Élénkítõ Jeladó",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Ez egy eldobható képesség amit magad alá érdemes dobni, ezzel pedig a fegyvered lövési gyorsaságát lehetõsen megnöveled, így letudsz tartani pozíciókat gyorsabb tûzerõvel."
-        },
-        {
-            "name": "Égi Füst",
-            "type": "szignatúra",
-            "price": "100 kredit",
-            "description": "Megnyitsz egy panelt a kezeden, ami megjeleníti a pályának egy kis részét ahol tartózkodsz, ott betudsz jelölni részeket, hogy hova szeretnél füstöket helyezni a pályán."
-        },
-        {
-            "name": "Orbitális Lecsapás",
-            "type": "Végsõ/Ultimate",
-            "price": "6 Ultimate pont",
-            "description": "Ugyan úgy megnyitod a kezeden lévõ panelt, így láthatod a térképet, kitudsz jelölni egy helyet ahová csapást szeretnél mérni, ezen a helyen az égbõl jövõ támadás fogja meglepni az ellenséget, ami elég nagy erõvel bír."
-        }
-    ],
-        "img": "https://imgur.com/a/PVBgwnK"
+      "name": "Frenzy",
+      "description": "A Frenzy egy teljesen automata pisztoly, alacsony költséggel rendelkezik és közepes tárral. Nagy károkat okoz, általában 7-8 lövés a testre és 3 a fejre. A leghatékonyabb közeli távolságban, ahol gyorsan letúrhatod az   ellenségedet, de közepes és hosszú távolságra pötyögtetéssel ajánlott használni. Kiváló választás az 'Eco' kör  számára, különösen, ha a csapatod elveszíti az első pisztoly körét, mivel jó a sebzése és a olcsó költsége, ha a csapat kreditje elég szegényen áll.",
+      "damage": "0-20 méter között: fejre 78, testre 26, lábra 22; 20-50 méter között: fejre 63, testre 21 lábra 17",
+      "storagecapacity": "13",
+      "price": "400 kredit"
     },
     {
-        "name": "Cypher",
-        "origin": "Morocco",
-        "description": "A Cypher egy egyszemélyes megfigyelõ hálózat, amely az ellenség minden mozdulatát tudja. Nincs titok Cypher elõtt. Egyetlen manõver sem vár meglepetésként. Cypher mindig figyel.",
-        "ultimate": "7",
-        "skills": [
-          {
-            "name": "Drót-Csapda",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "Falra letudsz helyezni egy lézert, amin ha áthalad az ellenfél, akkor azt kicsit lelassítja, és megjeleníti neked falon át azt az ellenséget aki belement és ha az ellenség nem lövi ki a lézert akkor sebez belé 5öt és 'megszédül', mint Breach 'Fault Line'-ánál, elfeketül a képernyõ és nem fog tudni rendesen mozogni, se lõni."
-        },
-        {
-            "name": "Kibernetikus Ketrec",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "El dobsz egy kis mûszert, ami aktiválással mûködik, egy körben szürke 'füstöt' fogsz kapni, ami smoke-ként funkcionál, a kör közepén nincs 'füst' csak egy körbe beláthatóság, körbõl kiláthatóság nincs."
-        },
-        {
-            "name": "Kém Kamera",
-            "type": "szignatúra",
-            "price": "Ingyenes",
-            "description": "Egy falra dobható kamerát tudsz tenni a falakra, ezt is ugyan úgy aktiválni kell, vagyis belépni a kamerába azzal a gombbal amivel eldobtad. Körbe tudsz vele nézni, felfedezni az ellenfelet, és akár lõni is tudsz vele az ellenségre egy mûszert amivel megfogja jeleníteni neked a térképen, meg a falon át az adott ellenséget."
-        },
-        {
-            "name": "Neurális Lopás",
-            "type": "Végsõ/Ultimate",
-            "price": "7 Ultimate pont",
-            "description": "Egy halott ellenséghez kell futnod, és beaktiválni rá a képességed, így megmutatja a falon keresztül és a térképen is az ellenfeleket akik életben vannak még."
-        }
-    ],
-        "img": "https://imgur.com/a/dv6R46T"
+      "name": "Ghost",
+      "description": "A Ghost meglehetősen olcsó félautomata pisztoly, jó sebzéssel és alacsony kapacitással. Ez általában egy lövés a fejre és 5-6 lövés a testre halálos. A Ghost hangtompítóval van felszerelve, amely elősegíti az általános pontosság növelését, csökkenti a hallhatósági távolságot, és tompítja a hangot, ami hasznos lehet a forgatáshoz másik oldalra. A fegyver nagyszerű pisztoly, amely megbízható tartalék fegyverként is használható. Átlagon felüli pontossága, jó sebzése és halk lövése lehetővé teszi, hogy a legtöbb helyzetben támaszkodni tudj a pisztoly használatára.",
+      "damage": "0-30 méter között: fejre 105, testre 30, lábra 26; 30-50 méter között: fejre 88, testre 21, lábra 17",
+      "storagecapacity": "15",
+      "price": "500 kredit"
     },
     {
-        "name": "Jett",
-        "origin": "Dél-Korea",
-        "description": "Jett agilis és kitérõ harci stílusa lehetõvé teszi, hogy senki más ne vállaljon kockázatot. Körökkel elõrébb jár, és lecsap az ellenfélre, még mielõtt megtudnák, mi vár rájuk.",
-        "ultimate": "6",
-        "skills": [
-          {
-            "name": "Felhõszakadás",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Eltudsz dobni egy felhõ 'smoke-ot' ami igaz, nem sokáig lesz ott, de ennek ellenére 3at tudsz belõle venni."
-        },
-        {
-            "name": "Feláramlás",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "A képesség elnyomásával felugrasz egy magasat, ezzel eltudsz érni olyan pozíciokat ahol az ellenfél nem számíthat rád, ládákra, magasabb helyekre tudsz felugrani."
-        },
-        {
-            "name": "Hátszél",
-            "type": "szignatúra",
-            "price": "Ingyenes",
-            "description": "A képesség elnyomávásal elugrasz egy helyre, itt nem magasságot ugrasz, hanem egy távot teszel meg rövid idõ alatt, szóval vízszintesen ugrasz el az egyik helyrõl a másikra."
-        },
-        {
-            "name": "Pengevihar",
-            "type": "Végsõ/Ultimate",
-            "price": "6 Ultimate pont",
-            "description": "Kapsz 5 darab kést, és bal-jobb klikkel tudod irányítani, hogy mire szeretnéd használni. Bal klikkel 1 darab kést dobsz el nagy sebességgel, amire nem lehet reagálni az ellenfélnek olyan gyors. A jobb klikkel, ha nem vagy biztos az 1 késes megoldásban, akkor a ezzel eltudod dobni az összeset egyszerre, így az ellenfél az 5 késnek a sebzését kapja meg. Ha megölsz az Ultimate-eddel egy ellenfelet, akkor vissza kapod mind az 5 késed."
-        }
-    ],
-        "img": "https://imgur.com/a/sareYVE"
+      "name": "Sheriff",
+      "description": "A Sheriff a játék legdrágább pisztolya, 800 kreditbe kerül. Ez egy kis szórással és nagy sebzéssel, valamint egy nagy visszarúgással jár. Félautomata. A pisztoly az árához képest elég erős sebzése van rendkívül hasznos az 1. körben is akár vagy 'Eco' körnél. A seriff fő hátránya lővési idő és mozgás közbeni nagy szórással rendelkezik ami nem egy pozitívum. Bármelyik pisztolyból ez a rúg vissza a legtöbbet, és elég sok időbe telik, hogy az vissza álljon a legpontosabb találatára. A negatívum ellenére is csak ajánlani tudom. ~Clavum ",
+      "damage": "0-20 méteren belül: fejre 160, testre 55, lábra 47; 30-50 méteren belül: fejre 145, testre 50, lábra 43",
+      "storagecapacity": "6",
+      "price": "800 kredit"
     },
     {
-        "name": "Omen",
-        "origin": "Ismeretlen",
-        "description": "Omen az árnyékban vadászik. Vakossá teszi az ellenséget, teleportál a terepen, majd hagyja, hogy a paranoia megfélemlítse az ellenfelet, hogy kiderüljön, merre lehet a következõ ellenség.",
-        "ultimate": "7",
-        "skills": [
-          {
-            "name": "Leplezett Lépés",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Ahová nézel, egy kisebb körben bárhová eltudsz teleportálni például dobozokra, magasabb pozíciókra"
-        },
-        {
-            "name": "Paranoia",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "Nevezhetjük bevakításnak is, de nem teljesen vakul be az ellenfél csak elég kis körben tud látni az ellenfél, a képesség neve átadja a jelentését."
-        },
-        {
-            "name": "Sötétségbe Borító",
-            "type": "szignatúra",
-            "price": "ingyenes",
-            "description": "Egy füst vagyis 'smoke' képesség, amit az egész pályán bárhová eltudsz nyomni, jobb klikkel tudod távolabbra vinni és amivel elnyomtad a képességed azzal tudod visszább húzni magadhoz, bal klikkel pedig ellövöd. A mini térképeden pedig tudod figyelni hova is lövöd a képességed."
-        },
-        {
-            "name": "Az árnyékból",
-            "type": "Végsõ/Ultimate",
-            "price": "7 Ultimate pont",
-            "description": "Az egész pályán bárhova betudsz teleportálni, és amikor elnyomtad, hogy hová szeretnél teleportálni, akkor körbe tudsz nézni ott ahova érkezel pár másodpercig, ez idõ alatt, ha meglõ egy ellenség akkor vissza mész az eredeti helyre ahonnan jöttél."
-        }
-    ],
-        "img": "https://imgur.com/a/o93EBX4"
+      "name": "Stinger",
+      "description": "A Stinger 1000 kreditbe kerül az egyedülálló rendkívül magas tűzállósága miatt. A Stingernek lövésekenként alacsony a sebzése a játék szinte minden más fegyveréhez képest kevés, továbbá abszurd módon magas szórása       van, ami alacsonyabb pontossághoz vezet. A Stringre azonban nagyon olcsó, és másodpercenként rendkívül magas sebzéssel rendelkezik. Könnyen kiiktatja a közelben lévő játékosokat, közelről. A Stinger akkor hasznos, amikor a csapatodnak nincs sok pénze, de ki akarja egyenlíteni a sebzést az ellenséggel kapcsolatban. A Stingert csak közeli hatótávban szabad használni, de figyelembe véve az alacsony 20 töltény kapacitását, minden lövést figyelembe kell venni, különösen ha több ellenséggel szembesülsz.",
+      "damage": "0-20 méter között: fejre 67, testre 27, lábra 23; 20-50 méter között: fejre 62, testre 25, lábra 21",
+      "storagecapacity": "20",
+      "price": "1000 kredit"
     },
     {
-        "name": "Phoenix",
-        "origin": "Egyesült Királyság",
-        "description": "A Phoenix egy támadó ügynök, aki az ellenségek legyõzésére szakosodik, miközben megrontja a lövöldözõs képességüket. Akik szeretnek agresszív játék módot folytatni , azok nagyon élvezik ennek az ügynöknek a játékmenetét.",
-        "ultimate": "6",
-        "skills": [
-          {
-            "name": "Láng",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "Amerre elnézel és elnyomod a képességed, odáig egy láng lobban fel tõled kezdve és falként funkcionál, ebben az ellenfél sebzõdik, míg te gyógyulsz."
-        },
-        {
-            "name": "Csavart Labda",
-            "type": "alap",
-            "price": "200",
-            "description": "Jobb és bal klikkel tudod elhasználni, ha jobb klikkelsz, akkor jobb irányba kis ívben eldob egy gömböt ami bevakítja az ellenfelet, ugyan egy a bal klikkel is, csak az balra dobja az ívelt gömböt."
-        },
-        {
-            "name": "Forró Kezek",
-            "type": "szignatúra",
-            "price": "ingyenes",
-            "description": "Egy molotov bombát tudsz eldobni ahova szeretnél, ebbe, ha beleállsz akkor gyógyulsz, az ellenfél pedig elég nagy sebzést kap,  ha beleáll. Fontos, hogy a csapattársadat NEM gyógyítja, ugyan úgy sebzi, mint az ellenfeledet."
-        },
-        {
-            "name": "Vissza Futás",
-            "type": "Végsõ/Ultimate",
-            "price": "6 Ultimate pont",
-            "description": "Csinálsz magadból egy klónt és ugyan úgy tudsz lõni, menni, ellenséget ölni, mint Ultimate nélkül, annyi különbséggel, ha megölnek téged Ultimate közben, akkor vissza teleportálsz oda, ahol elnyomtad a képességed, vagy ha lejár az Ultimate ideje."
-        }
-    ],
-        "img": "https://imgur.com/a/ZHDH4Xa"
+      "name": "Spectre",
+      "description": "A Spectre egy mérsékelt árú géppisztoly. Fel van szerelve egy hangtompítóval, amely csökkenti a fegyver hallgatóságát. A Stinger-hez képest lényegesen pontosabb, lényegesen kevesebb szórást mutat, valamivel több falátütési képességgel rendelkezik, és magasabb kapacitása van (30, szemben a 20-al). Azonban kissé alacsonyabb lövésenkénti sebzése. A fegyver hasznos 2. körben force-nál (= 0-ra vásárlás, mindent amit tudsz ráveszel), , és határozottan hatékony közeli távolságban, különösen fegyvertelen ellenségeknél. A csendes tüzelési hang szintén hasznos lehet, hogy az ellenségek csak közelről hallják merről érkezik a lövésed, mivel nem feltétlenül figyelmezteti őket a játék, hogy lövik őket. Azonban a játékosok nagyobb sebzéssel rendelkező fegyvereket szereznek, később a játékban elveszíti a hatékonyságát, ahol a szerepét jobban kitölti a Phantom nevezetű fegyver, amellyel akár 1 fejlövéssel is kitudsz iktatni egy ellenfelet (feltéve, hogy a az ellenségnek nincs elegendő páncélja), és jóval nagyobb hatótávolsága van, nagyobb ütőképességgel.",
+      "damage": "0-20 méter között: fejre 78, testre 26, lábra 22; 20-50 méter között: fejre 66, testre 22, lábra 18",
+      "storagecapacity": "30",
+      "price": "1600 kredit"
     },
     {
-        "name": "Raze",
-        "origin": "Brazília",
-        "description": "A Raze szereti a robbanóanyagokat. A tompa, erõszakos traumatikus játékának köszönhetõen nagy adag „BOOM”-al kitakarítja az ellenségeket bárhonnan és bármikor.",
-        "ultimate": "6",
-        "skills": [
-          {
-            "name": "BOOM Robot",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "A robotot eldobván, az faltól-falig járja az útját, míg egy ellenséget észre nem vesz és 'ráfut', kilõhetõ képesség az ellenfél számára. Viszont, ha nem talál ellenfelet magának akkor egyszerûen csak szét esik."
-        },
-        {
-            "name": "Robbanó Csomag",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "El tudsz dobni egy robbanócsomagot, amely rátapad bármilyen felülethez. Használd újra a képességet a lerakás után, hogy felrobbanjon, az ellenfelet és a csapattársakat is sebzi, de téged feltud dobni magasabb pontra. Van esés sebzés is amit akkor szenvedsz el, ha magasra dobod fel magad és utána leesel."
-        },
-        {
-            "name": "Festõ Bomba",
-            "type": "szignatúra",
-            "price": "ingyenes",
-            "description": "Ez a képesség egy gránátnak felel meg, amit eldobsz, felrobban és utána pedig a 'sörétek' (4 darab) tovább robbanak, elég nagy sebzést tudsz ezzel mérni, akár egy sarokban levárónak."
-        },
-        {
-            "name": "BOOM Rakéta",
-            "type": "Végsõ/Ultimate",
-            "price": "6 Ultimate pont",
-            "description": "Kilõsz egy BOOM rakétát, téged hátra lök, olyan erõs tüzérségrõl beszélünk. A rakéta sebzése orbitálisat üt az ellenfeleden."
-        }
-    ],
-        "img": "https://imgur.com/a/wi3zZ10"
+      "name": "Bucky",
+      "description": "Bucky az egyik a Valorantban elérhető két (három, ha a Shorty-t is belevesszük a pisztolyokból) Shotgun közül. Bucky 5 tölténnyel rendelkezik, és rendkívül hatékony fegyver közelről  ha a nagy része eltalálta az ellenfelet. Megfelelő választás kis fegyver vásárlásánál, amikor a csapatodnak kevés kreditje van.",
+      "damage": "0-8 méter között: fejre 44, testre 22, lábra 19; 8-12 méter között: fejre 34, testre 17, lábra 14; 12-50 méter között: fejre 18, testre 9, lábra 8",
+      "storagecapacity": "5",
+      "price": "900 kredit"
     },
     {
-        "name": "Sage",
-        "origin": "Kína",
-        "description": "Sage biztonságot teremt magának és a csapatának, bárhová is megy. Az elhullott csapattársak újjáélesztése és az erõszakos támadások elkerülése érdekében nyugodt központot nyújt a pokoli csatatérhez. A mai napig legszembetûnõbb támogató karakter Kínából származik, és olyan gömböket hoz, amelyek gyógyítják a szövetségeseket, lassítják az ellenségeket, és akadályokat teremtenek a földrõl, hogy akadályozzák a mérkõzés menetét. Végsõ képessége lehetõvé teszi neki, hogy feltámasszon egy halott szövetségest, ami jelentõs egy visszatérés nélküli játékban.",
-        "ultimate": "7",
-        "skills": [
-          {
-            "name": "Akadály gömb",
-            "type": "alap",
-            "price": "400 kredit",
-            "description": "Egy jég falat tudsz lehelyezni, ami 4 részbõl áll, ez tudja az ellenfeledet blokkolni, vagy akár 'boost'-ként is használhatod, ha magad alá teszed, ezzel magasabb pontot tudsz elérni a talajhoz képest. Ez a fal kilõhetõ, de egy idõ után elkezd olvadni így kevesebb élete lesz a falnak, a végén egy idõ után teljesen megsemmisül."
-        },
-        {
-            "name": "Lassító gömb",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Egy gömböt eldobsz egy helyre ahová szeretnéd, és ott egy jég padló fog megjelenni, ami mindenkit lassít abban a körben ahol ez a jég van, téged is beleértve. Ha ezen valaki áthalad annak hangja is van."
-        },
-        {
-            "name": "Gyógyító gömb",
-            "type": "szignatúra",
-            "price": "Ingyenes",
-            "description": "Ezzel a képességgel magadat és a csapattársaidat is tudod gyógyítani, bal klikkel társaid, jobb klikkel magadat gyógyítod."
-        },
-        {
-            "name": "Feltámadás",
-            "type": "Végsõ/Ultimate",
-            "price": "7 Ultimate pont",
-            "description": "Ha meghal egy csapattársad akkor oda mész hozzá és rányomod az Ultimate képességedet, ezzel felélesztve õt maximum életerõn."
-        }
-    ],
-        "img": "https://imgur.com/a/OFA5I2O"
+      "name": "Judge",
+      "description": "A Judge puska ára 1500 kredit, ezzel a legdrábább Shotgun a játékban. A Judge a Valorant Shotgun fajtájiba tartozik. A Judge-nak nagyon jó sebzése, gyors tűzereje, közepes falátütési képessége és 7 töltényes tára van. Az összességében a Judge egy jó Shotgun, amelyet védekező szög tartására és az ellenség futására lehet használni.",
+      "damage": "0-10 méter között: fejre 34, testre 17, lábra 14; 10-15 méter között: fejre 26, testre 13, lábra 11; 15-50 méter között: fejre 20, testre 10, lábra 9",
+      "storagecapacity": "7",
+      "price": "1500 kredit"
     },
     {
-        "name": "Sova",
-        "origin": "Oroszország",
-        "description": "A Sova könyörtelen hatékonysággal és pontossággal nyomon követi, megtalálja és megmutatja a csapatának az ellenségeket. Szokásos íja és hihetetlen cserkész képességei biztosítják, hogy még ha futsz is, nem tudsz elrejtõzni elõle.",
-        "ultimate": "7",
-        "skills": [
-          {
-            "name": "Sokkoló Nyílvesszõ",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Egy nyilat lõsz kivele, és ahova érkezik ott egy burokban sokkoló hatást mér, ami sebzi az ellenfeleket. Ezt a képességet tudod korrigálni azzal, hogy hányat pattanjon a falon akár a földön, 0-1-2 ezek közül lehet választani a jobb klikkel."
-        },
-        {
-            "name": "Bagoly Drón",
-            "type": "alap",
-            "price": "300 kredit",
-            "description": "Ez egy drón, amit ha beaktiválsz, tudsz vele repülni, és feltérképezni az ellenséges területet. Azonban tudsz vele lõni is, ha eltalálsz vele egy ellenfelet akkor rálátást tudsz vele biztosítani a csapatodnak. A drón megsemmisül ha elfogyott az üzemanyaga."
-        },
-        {
-            "name": "Felderítõ Nyílvesszõ",
-            "type": "szignatúra",
-            "price": "ingyenes",
-            "description": "Ezt a képességet kitudod lõni ugyan úgy, mint a 'Sokkoló Nyílvesszõ'-det, ez azonban 3x leszkenneli a területet és ha ellenséget is bemér, azt jelzi az egész csapatod számára. Ezt is ugyan úgy tudod állítani mennyit pattanjon, 0-1-2. Ezt az ellenfeled bármikor kitudja lõni."
-        },
-        {
-            "name": "Vadászok Dühe",
-            "type": "Végsõ/Ultimate",
-            "price": "7 Ultimate pont",
-            "description": "Ez egy mindenen áthatoló, nagyot sebzõ képesség. Ugyan úgy 'nyilat' lõsz kivele, csak egy kicsit másképpen, körübelül az egész pályán áttudsz vele lõni és elég nagy meglepetést tudsz vele okozni."
-        }
-    ],
-        "img": "https://imgur.com/a/w2dDfOF"
+      "name": "Bulldog",
+      "description": "A Bulldog egy teljesen automatikus puska, és a játék legolcsóbb a három teljesen automatikus puska közül. A tára 24 golyót tartalmaz. Jó sebzése van, ez elég lesz 2 lövés a fejhez és 5 lövés a testhez vagy a lábakhoz. A Bulldog egyedülálló azzal, hogy viszonylag alacsony költséggel rendelkezik a 2100-as ára teljesen megfelelő egy automata puskákhoz képest. 2 féle képpen lehet kihasználni a lövési képességét, amikor nem célzol vele kevésbé pontos a fegyver, de elég gyorsan tudsz vele lőni. Ha célzol vele akkor csak 'Burst' módban tudsz vele lőni, ez azt jelenti, hogy csak pár golyót tudsz kilőni (pontosabban, mint célzás nélkül) 1 kattintással, újabb tüzelésre csak akkor van alkalmad, ha újra kattintasz egyet.",
+      "damage": "0-50 méter között: fejre 116, testre 35, lábra 30",
+      "storagecapacity": "24",
+      "price": "2100 kredit"
     },
     {
-        "name": "Viper",
-        "origin": "Amerikai Egyesült Államok (USA)",
-        "description": "A Viper egy sor mérgezõ vegyi eszközt telepít a csatatér irányítására és az ellenség látásának megrontására. Ha a méreganyagok nem ölik meg zsákmányát, akkor az elméjének játékai biztosan meg fognak fogni. Egy ragadozó, amely méreggel és vegyi háborúval foglalkozik. Robbanó lövedékeket bocsát ki, amelyek savot öntenek a csatatéren, valamint mérgezõgáz-kibocsátót és mérgezõgáz-szûrõt, hogy megakadályozzák az áthaladást. Végsõ soron mérgezõ felhõt bocsát ki, amely elrejti a helyét, és rávilágít az ellenségekre, akik belebotlanak.",
-        "ultimate": "7",
-        "skills": [
-          {
-            "name": "Kígyó Harapás",
-            "type": "alap",
-            "price": "100 kredit",
-            "description": "Kilõsz vele egy méreg kapszulát, ami mérgezõ tócsát alkot egy kis körben, ami mindenkit sebez, téged is beleértve."
-        },
-        {
-            "name": "Méreg Felhõ",
-            "type": "alap",
-            "price": "200 kredit",
-            "description": "Ez egy smoke-ként funkcionáló méreg felhõ, amiben az enemy sebzõdik, de ha kijön a képességbõl akkor vissza tölti azt az életerõt, amit levett. Neked sokkal jobb a látótered benne, mint egy ellenfélnek. Csak akkor lép mûködésbe, ha aktiválod. Addig fog mûködni ameddig el-nem fogy a mérged, vagy még ki-nem kapcsolod. Feltudod venni a földrõl és újabb pozícióra eltudod dobni. Ez a képesség összekapcsolodódik a 3-as számú képeségeddel."
-        },
-        {
-            "name": "Mérgezõ Képernyõ",
-            "type": "szignatúra",
-            "price": "ingyenes",
-            "description": "Ezt eltudod nyomni egy hosszú távra, ahol egy sorban kis chipeket tesz le amiben méreg van. Ha beaktiválod egy zöld falat hoz létre, amin nem lehet  átlátni, ha az ellenfél beleáll, akkor sebzi, de amint kiment belõle vissza tölti az életerejét, amennyi volt neki mikor belement. A képességed te tudod kapcsolgatni, vagy akkor áll le amikor elfogy a mérged. (A méreg vissza tölt, amint egyik képességed se aktív)"
-        },
-        {
-            "name": "Vipera Verem",
-            "type": "Végsõ/Ultimate",
-            "price": "7 Ultimate pont",
-            "description": "Ezt letudod helyezni és óriási körben egy hatalmas smoke-ot helyezel le, amiben az ellenségek neked rikító pirosban fognak megjelenni (ebben is sebzi minimálisan az ellenfelet, amint kilép belõle vissza tölt az életereje). A körbõl ki nem lehet látni, és kívülrõl se be. Addig van életben ez a képességed, ameddig benne tartózkodsz, amint kimész egy idõ után lefog ereszkedni a méreg. (Ezt mutatni fogja egy sáv)"
-        }
-    ],
-        "img": "https://imgur.com/a/wPMccdI"
+      "name": "Guardian",
+      "description": "A Guardian egy félautomata puska, amelynek az ára 2700, más fegyverekkel összehasonlítva. A Guardian egyedülálló azzal, hogy az egyetlen félautomata puska, 1,5-szeres zoommal rendelkezik, valamint a golyónkénti legnagyobb sérüléssel rendelkezik, mint bármely más puska. A Guardian, bár félautomata, mégis gyors. Ez elég 4 lövés a lábakhoz, 3 a testhez és 1 a fejhez és halálos. A puska a védekező oldalon remekel, mivel a golyónkénti rendkívüli sérülései és az 1,5-szeres zoom miatt veszélyes, főleg mivel garantáltan egy lövés kell a fejhez, hogy meghalljon az ellenség.",
+      "damage": "0-50 méter között: fejre 195, testre 65, lábra 49",
+      "storagecapacity": "12",
+      "price": "2700 kredit"
+    },
+    {
+      "name": "Phantom",
+      "description": "A Phantom teljesen automata puska, 2900 kredites árával. Kevesebb sebzést okoz golyónként, mint az ellenfélénél, a Vandalnál, de az átlag feletti pontossággal, alacsony szórással és hangtompítóval pótolja azt. A Phantom magas pontossággal és hangtompítóval van felszerelve, amely rendkívül hasznos az öléshez, mivel közelebb eső távolságban (0-15 méter) a fej lövés azonnal megsemmisíti az ellenfelet. Hosszabb távolságban ez egy 6 lövés a lábakra, 5 a testre és 2 a fejre.",
+      "damage": "0-15 méter között: fejre 156, testre 39, lábra 33; 15-30 méter között: fejre 140, testre 35, lábra 30; 30-50 méter között: fejre 124, testre 31, lábra 26",
+      "storagecapacity": "30",
+      "price": "2900 kredit"
+    },
+    {
+      "name": "Vandal",
+      "description": "A Vandal egy teljesen automata puska, amely 2900 kredit árral rendelkezik. Ez a Phantom párja, és egyedülálló a magas DPS-ével (célzás nélküli lövés) bármekkora távolságban. A teljesen automatikus Vandal a nagyobb szórást és visszarúgást eredményez távolságtól függetlenül, mindig öt lövés a lábakra, négy a testre és egy lövéssel a fejre. Kellemes árának köszönhetően a Vandal többnyire olyan fordulókban kerül elő, ahol mindkét csapatnak van pénze.",
+      "damage": "0-50 méter között: fejre 156, testre 39, lábra 33",
+      "storagecapacity": "25",
+      "price": "2900 kredit"
+    },
+    {
+      "name": "Marshal",
+      "description": "A Marshal a Valorant mesterlövész puska osztályába tartozik. A Marshalnak nagy a sebzése, jó a tűzállósága, közepes a falátütési képessége és 5 lőszer/tár mérete. Összességében a Marshal jó árának köszönhetően 2. körben vagy 'Eco' körben ajánlott használni, mivel a test sebzése 101 így ha az 1. kör gyözelemnek bizonyosul, az ellenség kevés eséllyel vesz kis/nagy páncélt, így akár lövés/ellenség.",
+      "damage": "0-50 méter között: fejre 202, testre 101, lábra 85",
+      "storagecapacity": "5",
+      "price": "1100 kredit"
+    },
+    {
+      "name": "Operator",
+      "description": "Az operátor a játékban található összes fegyver közül a golyónként a legnagyobb sebzést okozza, és ez egy olyan erő, amellyel számolni kell, mivel egy lövés/kill jellege van. Ez egyben a játék legdrágább fegyvere 4500 kreditért. A Scope-nak kettő zoom módja van: az 5x-es fókusz a szoros szögek tartására alkalmas, míg a 2,5-szeres jobban kezeli a nyitottabb területeket. A fegyvernek rendkívül alacsony a tűzsebessége, amely lehetővé teszi az ellenség számára, hogy könnyedén megtámadjon, ameddig te újra töltesz.",
+      "damage": "0-50 méter között: fejre 255, testre 150, lábra 127",
+      "storagecapacity": "5",
+      "price": "4500 kredit"
+    },
+    {
+      "name": "Ares",
+      "description": "Az Ares az egyik legnagyobb, teljesen automata géppuska, amely a Valorantban elérhető. Az Aresnek van egy kapacitív tára, amelyben 50 lőszer van. Legalább két fejlövésre van szüksége az ellenfél kiiktatására. Ha a testet célozza meg, akkor 4-5 lövésre lesz szüksége. Mivel az Ares nehéz géppuska, ezért nagyon nehéz kezelni és meglehetősen véletlenszerű golyóval szór szét.",
+      "damage": "0-30 méter között: fejre 72, testre 30, lábra 25; 30-50 méter között: fejre 67, testre 28, lábra 23",
+      "storagecapacity": "50",
+      "price": "1600 kredit"
+    },
+    {
+      "name": "Odin",
+      "description": "Az Odin 3200 kredit összeggel, és a legnagyobb tárral rendelkezik. Ez nagyszerű fegyver lehet, mivel nincs szükség az újratöltésre. Adjuk hozzá azt a tényt, hogy a fal behatolása nagyon átkozottul jó. Az Ares prémium verziója, több lehetőséggel persze, de nem megfelelő használat esetén továbbra is hasonló hibákat okozhatsz vele. Be tudsz törni egy több ellenség által védett helyre akár egy tárból is.",
+      "damage": "0-30 méter között: fejre 95, testre 38, lábra 32; 30-50 méter között: fejre 77, testre 31, lábra 26",
+      "storagecapacity": "100",
+      "price": "3200 kredit"
     }
+
+    
+  ],
+
+"heroes":[
+  {
+    "name": "Breach",
+    "origin": "Svédország",
+    "description": "A Breach a kezdeményezés vadállata, amelynek képességei mindenen áthatolnak és kárt okoznak az ellenségnek. Támadás esetén nagy elõnyt jelent és a védekezésnél is, rengeteg eszközzel rendelkezik, hogy az ellenségek kétszer is elgondolkodjanak a támadásról.",
+    "ultimate": "7",
+    "skills": [
+      {
+        "name": "Utórengés",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Szerelj fel egy fúziós töltõt. És TÛZ! Falra tudod irányítani csak a képességet és aki a fal mögött volt, vagy a közelében annak sebzést tudsz okozni."
+      },
+      {
+        "name": "Gyulladáspont",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "Szerelj be egy vakító töltést, a falon át tudod alkalmazni, a hatása pedig az, hogy bevakítja az ellenfeleket akik belenéztek."
+      },
+      {
+        "name": "Törésvonal",
+        "type": "szignatúra",
+        "price": "ingyenes",
+        "description": "Szeizmikus robbanást tudsz okozni, amit feltudsz tölteni, hogy minnél messzebb tudd ellõni, ezt nem muszáj falra irányítani, de lehetõséged van rá. Akiket ér a képességed annak fekete lesz a képernyõje (nem teljesen csak annyira, hogy alig lásson) 'megszédül', nem tud rendesen mozogni, és a körbe nézés is hátrány lesz számára."
+      },
+      {
+        "name": "Hullámzó Mennydörgés",
+        "type": "Végsõ/Ultimate",
+        "price": "7 Ultimate pont",
+        "description": "Ugyan úgy nem kell a falra írányítanod, bármelyik irányba elnyomhatod, körübelül az egész pályán áthatol, ezzel sebzést, kábítást adsz az ellenfelednek akik benne voltak a képességedben."
+      }
+    ],
+    "img": "https://imgur.com/a/454qSb3"
+  },
+  {
+    "name": "Brimstone",
+    "origin": "Amerikai Egyedül Államok (USA)",
+    "description": "A Brimstone orbitális arzenálja biztosítja, hogy csapatának mindig elõnye legyen. Az a képessége, hogy pontosan és biztonságosan szállítsa el a képességeit az adott pontra. A páratlan csizmája, parancsnokká teszi õt.",
+    "ultimate": "6",
+    "skills": [
+      {
+        "name": "Gyújtó",
+        "type": "alap",
+        "price": "300 kredit",
+        "description": "Egy ellõhetõ képesség amit eltudsz lõni falra, onnan lepattan a földre és egy körben sebzést fog okozni, mivel egy gyújtógránátról beszélünk, ami fellángolja  a talajt."
+      },
+      {
+        "name": "Élénkítõ Jeladó",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Ez egy eldobható képesség amit magad alá érdemes dobni, ezzel pedig a fegyvered lövési gyorsaságát lehetõsen megnöveled, így letudsz tartani pozíciókat gyorsabb tûzerõvel."
+      },
+      {
+        "name": "Égi Füst",
+        "type": "szignatúra",
+        "price": "100 kredit",
+        "description": "Megnyitsz egy panelt a kezeden, ami megjeleníti a pályának egy kis részét ahol tartózkodsz, ott betudsz jelölni részeket, hogy hova szeretnél füstöket helyezni a pályán."
+      },
+      {
+        "name": "Orbitális Lecsapás",
+        "type": "Végsõ/Ultimate",
+        "price": "6 Ultimate pont",
+        "description": "Ugyan úgy megnyitod a kezeden lévõ panelt, így láthatod a térképet, kitudsz jelölni egy helyet ahová csapást szeretnél mérni, ezen a helyen az égbõl jövõ támadás fogja meglepni az ellenséget, ami elég nagy erõvel bír."
+      }
+    ],
+    "img": "https://imgur.com/a/PVBgwnK"
+  },
+  {
+    "name": "Cypher",
+    "origin": "Morocco",
+    "description": "A Cypher egy egyszemélyes megfigyelõ hálózat, amely az ellenség minden mozdulatát tudja. Egyetlen manőver sem vár meglepetésként. Cypher mindig figyel.",
+    "ultimate": "7",
+    "skills": [
+      {
+        "name": "Drót-Csapda",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "Falra letudsz helyezni egy lézert, amin ha áthalad az ellenfél, akkor azt kicsit lelassítja, és megjeleníti neked falon át azt az ellenséget aki belement és ha az ellenség nem lövi ki a lézert akkor sebez belé 5öt és 'megszédül', elfeketül a képernyõ és nem fog tudni rendesen mozogni, se lõni."
+      },
+      {
+        "name": "Kibernetikus Ketrec",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "El dobsz egy kis műszert, ami aktiválással működik, egy körben szürke 'füstöt' fogsz kapni, ami smoke-ként funkcionál, a kör közepén nincs 'füst' csak egy körben."
+      },
+      {
+        "name": "Kém Kamera",
+        "type": "szignatúra",
+        "price": "Ingyenes",
+        "description": "Egy falra dobható kamerát tudsz tenni a falra, ezt is ugyan úgy aktiválni kell, vagyis belépni a kamerába azzal a gombbal amivel eldobtad. Körbe tudsz vele nézni, felfedezni az ellenfelet, és akár lõni is tudsz vele az ellenségre egy mûszert amivel megfogja jeleníteni neked a térképen, meg a falon át az adott ellenséget."
+      },
+      {
+        "name": "Neurális Lopás",
+        "type": "Végsõ/Ultimate",
+        "price": "7 Ultimate pont",
+        "description": "Egy halott ellenséghez kell futnod, és beaktiválni rá a képességed, így megmutatja a falon keresztül és a térképen is az ellenfeleket akik életben vannak még."
+      }
+    ],
+    "img": "https://imgur.com/a/dv6R46T"
+  },
+  {
+    "name": "Jett",
+    "origin": "Dél-Korea",
+    "description": "Jett agilis és kitérõ harci stílusa lehetõvé teszi, hogy senki más ne vállaljon kockázatot. Körökkel elõrébb jár, és lecsap az ellenfélre, még mielõtt megtudnák, mi vár rájuk.",
+    "ultimate": "6",
+    "skills": [
+      {
+        "name": "Felhõszakadás",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Eltudsz dobni egy felhõ 'smoke-ot' ami igaz, nem sokáig lesz ott, de ennek ellenére 3at tudsz belõle venni."
+      },
+      {
+        "name": "Feláramlás",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "A képesség elnyomásával felugrasz egy magasat, ezzel eltudsz érni olyan pozíciokat ahol az ellenfél nem számíthat rád, ládákra, magasabb helyekre tudsz felugrani."
+      },
+      {
+        "name": "Hátszél",
+        "type": "szignatúra",
+        "price": "Ingyenes",
+        "description": "A képesség elnyomávásal elugrasz egy helyre, itt nem magasságot ugrasz, hanem egy távot teszel meg rövid idõ alatt, szóval vízszintesen ugrasz el az egyik helyrõl a másikra."
+      },
+      {
+        "name": "Pengevihar",
+        "type": "Végsõ/Ultimate",
+        "price": "6 Ultimate pont",
+        "description": "Kapsz 5 darab kést, és bal-jobb klikkel tudod irányítani, hogy mire szeretnéd használni. Bal klikkel 1 darab kést dobsz el nagy sebességgel, amire nem lehet reagálni az ellenfélnek olyan gyors. A jobb klikkel, ha nem vagy biztos az 1 késes megoldásban, akkor a ezzel eltudod dobni az összeset egyszerre, így az ellenfél az 5 késnek a sebzését kapja meg. Ha megölsz az Ultimate-eddel egy ellenfelet, akkor vissza kapod mind az 5 késed."
+      }
+    ],
+    "img": "https://imgur.com/a/sareYVE"
+  },
+  {
+    "name": "Omen",
+    "origin": "Ismeretlen",
+    "description": "Omen az árnyékban vadászik. Vakossá teszi az ellenséget, teleportál a terepen, majd hagyja, hogy a paranoia megfélemlítse az ellenfelet, hogy kiderüljön, merre lehet a következõ ellenség.",
+    "ultimate": "7",
+    "skills": [
+      {
+        "name": "Leplezett Lépés",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Ahová nézel, egy kisebb körben bárhová eltudsz teleportálni például dobozokra, magasabb pozíciókra"
+      },
+      {
+        "name": "Paranoia",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "Nevezhetjük bevakításnak is, de nem teljesen vakul be az ellenfél csak elég kis körben tud látni az ellenfél, a képesség neve átadja a jelentését."
+      },
+      {
+        "name": "Sötétségbe Borító",
+        "type": "szignatúra",
+        "price": "ingyenes",
+        "description": "Egy füst vagyis 'smoke' képesség, amit az egész pályán bárhová eltudsz nyomni, jobb klikkel tudod távolabbra vinni és amivel elnyomtad a képességed azzal tudod visszább húzni magadhoz, bal klikkel pedig ellövöd. A mini térképeden pedig tudod figyelni hova is lövöd a képességed."
+      },
+      {
+        "name": "Az árnyékból",
+        "type": "Végsõ/Ultimate",
+        "price": "7 Ultimate pont",
+        "description": "Az egész pályán bárhova betudsz teleportálni, és amikor elnyomtad, hogy hová szeretnél teleportálni, akkor körbe tudsz nézni ott ahova érkezel pár másodpercig, ez idõ alatt, ha meglõ egy ellenség akkor vissza mész az eredeti helyre ahonnan jöttél."
+      }
+    ],
+    "img": "https://imgur.com/a/o93EBX4"
+  },
+  {
+    "name": "Phoenix",
+    "origin": "Egyesült Királyság",
+    "description": "A Phoenix egy támadó ügynök, aki az ellenségek legyõzésére szakosodik, miközben megrontja a lövöldözõs képességüket. Akik szeretnek agresszív játék módot folytatni , azok nagyon élvezik ennek az ügynöknek a játékmenetét.",
+    "ultimate": "6",
+    "skills": [
+      {
+        "name": "Láng",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "Amerre elnézel és elnyomod a képességed, odáig egy láng lobban fel tõled kezdve és falként funkcionál, ebben az ellenfél sebzõdik, míg te gyógyulsz."
+      },
+      {
+        "name": "Csavart Labda",
+        "type": "alap",
+        "price": "200",
+        "description": "Jobb és bal klikkel tudod elhasználni, ha jobb klikkelsz, akkor jobb irányba kis ívben eldob egy gömböt ami bevakítja az ellenfelet, ugyan egy a bal klikkel is, csak az balra dobja az ívelt gömböt."
+      },
+      {
+        "name": "Forró Kezek",
+        "type": "szignatúra",
+        "price": "ingyenes",
+        "description": "Egy molotov bombát tudsz eldobni ahova szeretnél, ebbe, ha beleállsz akkor gyógyulsz, az ellenfél pedig elég nagy sebzést kap,  ha beleáll. Fontos, hogy a csapattársadat NEM gyógyítja, ugyan úgy sebzi, mint az ellenfeledet."
+      },
+      {
+        "name": "Vissza Futás",
+        "type": "Végsõ/Ultimate",
+        "price": "6 Ultimate pont",
+        "description": "Csinálsz magadból egy klónt és ugyan úgy tudsz lõni, menni, ellenséget ölni, mint Ultimate nélkül, annyi különbséggel, ha megölnek téged Ultimate közben, akkor vissza teleportálsz oda, ahol elnyomtad a képességed, vagy ha lejár az Ultimate ideje."
+      }
+    ],
+    "img": "https://imgur.com/a/ZHDH4Xa"
+  },
+  {
+    "name": "Raze",
+    "origin": "Brazília",
+    "description": "A Raze szereti a robbanóanyagokat. A tompa, erõszakos traumatikus játékának köszönhetõen nagy adag „BOOM”-al kitakarítja az ellenségeket bárhonnan és bármikor.",
+    "ultimate": "6",
+    "skills": [
+      {
+        "name": "BOOM Robot",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "A robotot eldobván, az faltól-falig járja az útját, míg egy ellenséget észre nem vesz és 'ráfut', kilõhetõ képesség az ellenfél számára. Viszont, ha nem talál ellenfelet magának akkor egyszerûen csak szét esik."
+      },
+      {
+        "name": "Robbanó Csomag",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "El tudsz dobni egy robbanócsomagot, amely rátapad bármilyen felülethez. Használd újra a képességet a lerakás után, hogy felrobbanjon, az ellenfelet és a csapattársakat is sebzi, de téged feltud dobni magasabb pontra. Van esés sebzés is amit akkor szenvedsz el, ha magasra dobod fel magad és utána leesel."
+      },
+      {
+        "name": "Festõ Bomba",
+        "type": "szignatúra",
+        "price": "ingyenes",
+        "description": "Ez a képesség egy gránátnak felel meg, amit eldobsz, felrobban és utána pedig a 'sörétek' (4 darab) tovább robbanak, elég nagy sebzést tudsz ezzel mérni, akár egy sarokban levárónak."
+      },
+      {
+        "name": "BOOM Rakéta",
+        "type": "Végsõ/Ultimate",
+        "price": "6 Ultimate pont",
+        "description": "Kilõsz egy BOOM rakétát, téged hátra lök, olyan erõs tüzérségrõl beszélünk. A rakéta sebzése orbitálisat üt az ellenfeleden."
+      }
+    ],
+    "img": "https://imgur.com/a/wi3zZ10"
+  },
+  {
+    "name": "Sage",
+    "origin": "Kína",
+    "description": "Sage biztonságot teremt magának és a csapatának, bárhová is megy. Az elhullott csapattársak újjáélesztése nyugodt központot nyújt a pokoli csatatérhez. A mai napig legszembetûnõbb támogató karakter Kínából származik, és olyan gömböket hoz, amelyek gyógyítják a szövetségeseket, lassítják az ellenségeket, és akadályokat teremtenek a földrõl, hogy akadályozzák a mérkõzés menetét.",
+    "ultimate": "7",
+    "skills": [
+      {
+        "name": "Akadály gömb",
+        "type": "alap",
+        "price": "400 kredit",
+        "description": "Egy jég falat tudsz lehelyezni, ami 4 részbõl áll, ez tudja az ellenfeledet blokkolni, vagy akár 'boost'-ként is használhatod, ha magad alá teszed, ezzel magasabb pontot tudsz elérni a talajhoz képest. Ez a fal kilõhetõ, de egy idő után elkezd olvadni így egy idő után széttörik."
+      },
+      {
+        "name": "Lassító gömb",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Egy gömböt eldobsz egy helyre ahová szeretnéd, és ott egy jég padló fog megjelenni, ami mindenkit lassít abban a körben ahol ez a jég van. Ha ezen valaki áthalad annak hangja is van."
+      },
+      {
+        "name": "Gyógyító gömb",
+        "type": "szignatúra",
+        "price": "Ingyenes",
+        "description": "Ezzel a képességgel magadat és a csapattársaidat is tudod gyógyítani, bal klikkel társaid, jobb klikkel magadat gyógyítod."
+      },
+      {
+        "name": "Feltámadás",
+        "type": "Végsõ/Ultimate",
+        "price": "7 Ultimate pont",
+        "description": "Ha meghal egy csapattársad akkor oda mész hozzá és rányomod az Ultimate képességedet, ezzel felélesztve õt maximum életerõn."
+      }
+    ],
+    "img": "https://imgur.com/a/OFA5I2O"
+  },
+  {
+    "name": "Sova",
+    "origin": "Oroszország",
+    "description": "A Sova könyörtelen hatékonysággal és pontossággal nyomon követi, megtalálja és megmutatja a csapatának az ellenségeket. Szokásos íja és hihetetlen cserkész képességei biztosítják, hogy még ha futsz is, nem tudsz elrejtõzni elõle.",
+    "ultimate": "7",
+    "skills": [
+      {
+        "name": "Sokkoló Nyílvesszõ",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Egy nyilat lősz ki vele, és ahova érkezik ott egy burokban sokkoló hatást mér. Ezt a képességet tudod korrigálni azzal, hogy hányat pattanjon a falon akár a földön, 0-1-2."
+      },
+      {
+        "name": "Bagoly Drón",
+        "type": "alap",
+        "price": "300 kredit",
+        "description": "Ez egy drón, amit ha beaktiválsz, tudsz vele repülni, és feltérképezni az ellenséges területet. Azonban tudsz vele lőni is, ha eltalálsz vele egy ellenfelet akkor rálátást tudsz vele biztosítani a csapatodnak. A drón egy idő után lezuhan."
+      },
+      {
+        "name": "Felderítõ Nyílvesszõ",
+        "type": "szignatúra",
+        "price": "ingyenes",
+        "description": "Ezt a képességet kitudod lõni ugyan úgy, mint a 'Sokkoló Nyílvesszõ'-det, ez azonban 3x lescanneli a területet és ha egy ellenséget bemér, azt jelzi az egész csapatod számára. Ezt is ugyan úgy tudod állítani mennyit pattanjon, 0-1-2. Kilőhető az ellenfél számára."
+      },
+      {
+        "name": "Vadászok Dühe",
+        "type": "Végsõ/Ultimate",
+        "price": "7 Ultimate pont",
+        "description": "Ez egy mindenen áthatoló, nagyot sebzõ képesség. Ugyan úgy 'nyilat' lősz ki vele, csak egy kicsit másképpen, körübelül az egész pályán áttudsz vele lőni."
+      }
+    ],
+    "img": "https://imgur.com/a/w2dDfOF"
+  },
+  {
+    "name": "Viper",
+    "origin": "Amerikai Egyesült Államok (USA)",
+    "description": "Viper egy méreggel foglalkozó ügynök, külön-külön méreg kapszulákkal rendelkezik, és ezt felhasználhatja az ellenfelekre. Viper egy sor mérgező vegyi eszközt telepít a csatatér irányítására és az ellenség látásának megrontására.",
+    "ultimate": "7",
+    "skills": [
+      {
+        "name": "Kígyó Harapás",
+        "type": "alap",
+        "price": "100 kredit",
+        "description": "Kilõsz vele egy méreg kapszulát, ami mérgezõ tócsát alkot egy kis körben, ami mindenkit sebez."
+      },
+      {
+        "name": "Méreg Felhõ",
+        "type": "alap",
+        "price": "200 kredit",
+        "description": "Ez egy smoke-ként funkcionáló méreg felhő, amiben az ellenfelet decoy-ként 'sebzi'. Neked sokkal jobb a látótered benne, mint egy ellenfélnek. Csak akkor lép mûködésbe, ha aktiválod. Felvehető a földről."
+      },
+      {
+        "name": "Mérgezõ Képernyõ",
+        "type": "szignatúra",
+        "price": "ingyenes",
+        "description": "Ezt eltudod nyomni egy hosszú távra, ahol egy sorban kis chipeket tesz le amiben méreg van. Ha beaktiválod egy méreg falat hoz létre, amin nem lehet  átlátni, ha az ellenfél beleáll, akkor decoy-ként funkcionál. A képességed te tudod kapcsolgatni, vagy akkor áll le amikor elfogy a mérged."
+      },
+      {
+        "name": "Vipera Verem",
+        "type": "Végsõ/Ultimate",
+        "price": "7 Ultimate pont",
+        "description": "Ezt letudod helyezni és óriási körben egy hatalmas smoke-ot helyezel le, amiben az ellenségek neked rikító pirosban fognak megjelenni (Decoy-ként funkcionál). Addig van életben ez a képességed, ameddig benne tartózkodsz, amint kimész egy idő után lefog ereszkedni a méreg."
+      }
+    ],
+    "img": "https://imgur.com/a/wPMccdI"
+  }
 ]
+}
+
+{
+  "spike": [
+    {
+      "name": "Spike",
+      "overview": "A kör elején a Spike-ot a támadók elé dobják, és összegyűjthetik azt. Egy ikon jelenik meg a hordozó arcképe alatt, és mindkét csapatot értesíti a rendszer, ha a Spike-hordozó meghal. A tüskét fegyverként hordják; a hordozó eldobhatja a Spike-ot, és csak más támadók vehetik fel. A földön lévő Spike látható a Mini-Térképen a támadók és a védők számára, amíg azt látják.",
+      "plant": "A Spike-ot egy kijelölt helyre lehet lerakni. A Védőket értesíti arról, hogy a Spike le van rakva. A rakás 4 másodpercig tart, és megszakítható. A hordozó nem tud mozogni a lerakás során.",
+      "defuse": "A védők megsemmisíthetik a Spike-ot. A megsemmisítés összesen 7 másodpercet vesz igénybe, és félbe szakítható. A megsemmisítés felénél van egy ellenőrző pont,ami 3.5 másodperc. Ha a közepétől kezded el felszedni akkor már csak 3.5 másodpercig kell szedned.",
+      "countdown": "A Spike 45 másodperces robbanási időzítővel rendelkezik, amelyet egy csipogó riasztás jelez, amely az időzítő robbanáshoz közelítve felgyorsul. A Spike ezután egy nagy sugárban felrobban, és megöli a közeli játékosokat."
+    }
+  ]
+},
+{
+  "roundscredit": [
+    {
+      "name": "Kredit",
+      "firstround": "800 kredittel kezdesz a meccs elején",
+      "winround": "3000 kreditet kapsz egy nyert kör után",
+      "loseround": "1900-tól 2900-ig kapsz kreditet egy kikapott kör után",
+      "killcredit": "200 kreditet kapsz minden megölt ellenség után",
+      "spikeplant": "300 kreditet kap a csapatod minden bomba élesítéséért"
+    }
+  ]
+},
+{
+  "maps": [
+    {
+      "name": "Bind",
+      "pic": "https://imgur.com/a/27FKL9z"
+    }
+    {
+      "name": "Haven",
+      "pic": "https://imgur.com/a/kEpQ8iz"
+    }
+    {
+      "name": "Split",
+      "pic": "https://imgur.com/a/n6mckQ0"
+    }
+  ]
+},
+{
+  "shields": [
+    {
+      "name": "Kicsi Pajzs",
+      "price": "400 kredit",
+      "plushp": "25",
+      "description": "Az összes kapott sebzésnek 66%-át tompítja."
+    }
+    {
+      "name": "Nagy Pajzs",
+      "price": "1000 kredit",
+      "plushp": "50",
+      "description": "Az összes kapott sebzésnek 66%-át tompítja."
+    }
+  ]
+},
+{
+  "valorantpoints": [
+    {
+      "name": "Valorant Pont",
+      "purchasingformat": "Rendes pénzből vehető a Valorant Pont. Forint, Dollár, Euró stb. Ez a régiódtól függ.",
+      "description": "A Valorant Pontok a Valorant 1. számú fizető eszköze kozmetikára (Skinek, fal firkák, ügynök tier szint feloldására) és Radianite Pontokra tudod költeni."
+    }
+    {
+      "name": "Radianite Pont",
+      "purchasingformat": "Megszerezhető Battle Pass-nak kijátszásával, vagy megvehető Valorant Pontokért",
+      "description": "A Valorant 2. fizető eszköze, amit skinek fejlesztésére tudsz szánni, mint például animációk megváltoztatására, kill effect-eket is tudsz vele venni, vagy akár egy adott skinre chromákat."
+    }
+  ]
+},
+{
+  "skinknife": [
+    {
+      "name": "Imperium Kés",
+      "pic": "https://imgur.com/a/jqR4bBW",
+      "price": "2550 Valorant Pont"
+    }
+    {
+      "name": "Luxe Kés",
+      "pic": "https://imgur.com/a/KlL2AiS",
+      "price": "1750 Valorant Pont"
+    }
+    {
+      "name": "Reaver Kés",
+      "pic": "https://imgur.com/a/b4MWWUR",
+      "price": "3550 Valorant Pont"
+    }
+    {
+      "name": "Prism Kés",
+      "pic": "https://imgur.com/a/i6JQhZC",
+      "price": "2550 Valorant Pont"
+    }
+  ]
+},
+{
+  "skinpistol": [
+    {
+      "name": "Imperium Classic",
+      "pic": "https://imgur.com/a/uvdkx7U",
+      "price": "1275 Valorant Pont"
+    }
+    {
+      "name": "Sage's Classic",
+      "pic": "https://imgur.com/a/9N0ksTY",
+      "price": "Sage 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name": "Avalanche Classic",
+      "pic": "https://imgur.com/a/mU2sxbn",
+      "price": "1275 Valorant Pont"
+    }
+    {
+      "name": "Raze's Classic",
+      "pic": "https://imgur.com/a/4Lj5D4l",
+      "price": "Raze 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+
+
+
+
+    {
+      "name": "Viper's Shorty",
+      "pic": "https://imgur.com/a/OjHzsqY",
+      "price": "Viper 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+
+
+
+
+    {
+      "name": "Breach's Frenzy",
+      "pic": "https://imgur.com/a/rYXZr32",
+      "price": "Breach 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name": "Phoenix's Frenzy",
+      "pic": "https://imgur.com/a/tCNt93x",
+      "price": "Phoenix 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+
+
+
+
+    {
+      "name": "Luxe Ghost Level 1",
+      "pic": "https://imgur.com/a/uvPtfOu",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Luxe Ghost Level 2",
+      "pic": "https://imgur.com/a/AbocZrA",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Luxe Ghost Level 3",
+      "pic": "https://imgur.com/a/aq3WLQ1",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Luxe Ghost Level 4",
+      "pic": "https://imgur.com/a/sqxTuxJ",
+      "price": "875 Valorant Pont" 
+    }
+    {
+      "name": "Cypher Ghost",
+      "pic": "https://imgur.com/a/V3y8NVK",
+      "price": "Cypher 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name": "Omen's Ghost",
+      "pic": "https://imgur.com/a/fKNbXcW",
+      "price": "Omen 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name": "Toy Ghost",
+      "pic": "https://imgur.com/a/WphsZ0r",
+      "price": "Nincs információ."
+    }
+    {
+      "name": "Prism Ghost",
+      "pic": "https://imgur.com/a/uQFtzXk",
+      "price": "1275 Valorant Pont"
+    }
+
+
+
+
+    {
+      "name": "Jett's Sheriff",
+      "pic": "https://imgur.com/a/9P8H1CC",
+      "price": "Jett 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name": "Sova's Sheriff",
+      "pic": "https://imgur.com/a/0H2DxNG",
+      "price": "Sova 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name:": "Brimstone's Sheriff",
+      "pic": "https://imgur.com/a/OEbUAZA",
+      "price": "Brimstone 9-es szintjét 225.000 XP-vel tudjuk feloldani, ahol ez a skin elérhető."
+    }
+    {
+      "name": "Drips Sheriff",
+      "pic": "https://imgur.com/a/b5hNScz",
+      "price": "Nincs információ."
+    }
+    {
+      "name": "Reaver Sheriff",
+      "pic": "https://imgur.com/a/4PNJymy",
+      "price": "1775 Valorant Pont"
+    }
+    {
+      "name": "Ronin Sheriff",
+      "pic": "https://imgur.com/a/VGFRxhh",
+      "price": "1275 Valorant Pont"
+    }
+  ]
+},
+{
+  "skinsmg": [
+    {
+      "name": "Stinger",
+      "description": "Jelenleg ehhez a fegyverhez még nincs skin."
+    }
+
+
+
+
+    {
+      "name": "Luxe Spectre Level 1",
+      "pic": "https://imgur.com/a/mXJF7P0",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Luxe Spectre Level 2",
+      "pic": "https://imgur.com/a/4SqRlF4",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Luxe Spectre Level 3",
+      "pic": "https://imgur.com/a/nKXTWvZ",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Luxe Spectre Level 4",
+      "pic": "https://imgur.com/a/abm3yWM",
+      "price": "875 Valorant Pont"
+    }
+    {
+      "name": "Avalanche Spectre",
+      "pic": "https://imgur.com/a/b3S1XiT",
+      "price": "1275 Valorant Pont"
+    }
+    {
+      "name": "Toy Spectre",
+      "pic": "https://imgur.com/a/8EPqLn6",
+      "price": "Nincs Információ."
+    }
+    {
+      "name": "Toy Spectre", 
+      "pic": "https://imgur.com/a/cJMErIl",
+      "price": "1275 Valorant Pont"
+    }
+  ]
+},
+{
+  "skinshotgun": [
+    {
+      "name": "Toy Bucky",
+      "pic": "https://imgur.com/a/SgOmAsV",
+      "price": "Nincs információ."
+    }
+
+
+
+
+    {
+      "name": "Luxe Judge Level 1",
+      "pic": "https://imgur.com/a/6QtolHR",
+      "price": "Nincs információ."
+    }
+  ]
+},
+{
+  "skinrifle": [
+    {
+      "name": "Drips Bulldog",
+      "pic": "https://imgur.com/a/zC16Odb",
+      "price": "Nincs információ."
+    }
+    {
+      "name": "Ronin Bulldog",
+      "pic": "https://imgur.com/a/ZmJ6pqu",
+      "price": "875 Valorant Pont"
+    },
+    {
+      "name": "Guardian",
+      "description": "Jelenleg ehhez a fegyverhez még nincs skin."
+    }
+  ]
 }
