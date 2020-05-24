@@ -1,0 +1,336 @@
+{
+    "weapons":[],
+
+    "heroes":[
+      {
+        "name": "Breach",
+        "origin": "Svédország",
+        "description": "A Breach a kezdeményezés vadállata, amelynek képességei mindenen áthatolnak és kárt okoznak az ellenségnek. Támadás esetén nagy elõnyt jelent és a védekezésnél is, rengeteg eszközzel rendelkezik, hogy az ellenségek kétszer is elgondolkodjanak a támadásról.",
+        "ultimate": "7",
+        "skills": [
+          {
+            "name": "Utórengés",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Szerelj fel egy fúziós töltõt. És TÛZ! Falra tudod irányítani csak a képességet és aki a fal mögött volt, vagy a közelében annak sebzést tudsz okozni."
+        },
+        {
+            "name": "Gyulladáspont",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "Szerelj be egy vakító töltést, a falon át tudod alkalmazni, a hatása pedig az, hogy bevakítja az ellenfeleket akik belenéztek."
+        },
+        {
+            "name": "Törésvonal",
+            "type": "szignatúra",
+            "price": "ingyenes",
+            "description": "Szeizmikus robbanást tudsz okozni, amit feltudsz tölteni, hogy minnél messzebb tudd ellõni, ezt nem muszáj falra irányítani, de lehetõséged van rá. Akiket ér a képességed annak fekete lesz a képernyõje (nem teljesen csak annyira, hogy alig lásson) 'megszédül', nem tud rendesen mozogni, és a körbe nézés is hátrány lesz számára."
+        },
+        {
+            "name": "Hullámzó Mennydörgés",
+            "type": "Végsõ/Ultimate",
+            "price": "7 Ultimate pont",
+            "description": "Ugyan úgy nem kell a falra írányítanod, bármelyik irányba elnyomhatod, körübelül az egész pályán áthatol, ezzel sebzést, kábítást adsz az ellenfelednek akik benne voltak a képességedben."
+        }
+    ],
+        "img": "https://imgur.com/a/454qSb3"
+    },
+    {
+        "name": "Brimstone",
+        "origin": "Amerikai Egyedül Államok (USA)",
+        "description": "A Brimstone orbitális arzenálja biztosítja, hogy csapatának mindig elõnye legyen. Az a képessége, hogy pontosan és biztonságosan szállítsa el a képességeit az adott pontra. A páratlan csizmája, parancsnokká teszi õt.",
+        "ultimate": "6",
+        "skills": [
+          {
+            "name": "Gyújtó",
+            "type": "alap",
+            "price": "300 kredit",
+            "description": "Egy ellõhetõ képesség amit eltudsz lõni falra, onnan lepattan a földre és egy körben sebzést fog okozni, mivel egy gyújtógránátról beszélünk, ami fellángolja  a talajt."
+        },
+        {
+            "name": "Élénkítõ Jeladó",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Ez egy eldobható képesség amit magad alá érdemes dobni, ezzel pedig a fegyvered lövési gyorsaságát lehetõsen megnöveled, így letudsz tartani pozíciókat gyorsabb tûzerõvel."
+        },
+        {
+            "name": "Égi Füst",
+            "type": "szignatúra",
+            "price": "100 kredit",
+            "description": "Megnyitsz egy panelt a kezeden, ami megjeleníti a pályának egy kis részét ahol tartózkodsz, ott betudsz jelölni részeket, hogy hova szeretnél füstöket helyezni a pályán."
+        },
+        {
+            "name": "Orbitális Lecsapás",
+            "type": "Végsõ/Ultimate",
+            "price": "6 Ultimate pont",
+            "description": "Ugyan úgy megnyitod a kezeden lévõ panelt, így láthatod a térképet, kitudsz jelölni egy helyet ahová csapást szeretnél mérni, ezen a helyen az égbõl jövõ támadás fogja meglepni az ellenséget, ami elég nagy erõvel bír."
+        }
+    ],
+        "img": "https://imgur.com/a/PVBgwnK"
+    },
+    {
+        "name": "Cypher",
+        "origin": "Morocco",
+        "description": "A Cypher egy egyszemélyes megfigyelõ hálózat, amely az ellenség minden mozdulatát tudja. Nincs titok Cypher elõtt. Egyetlen manõver sem vár meglepetésként. Cypher mindig figyel.",
+        "ultimate": "7",
+        "skills": [
+          {
+            "name": "Drót-Csapda",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "Falra letudsz helyezni egy lézert, amin ha áthalad az ellenfél, akkor azt kicsit lelassítja, és megjeleníti neked falon át azt az ellenséget aki belement és ha az ellenség nem lövi ki a lézert akkor sebez belé 5öt és 'megszédül', mint Breach 'Fault Line'-ánál, elfeketül a képernyõ és nem fog tudni rendesen mozogni, se lõni."
+        },
+        {
+            "name": "Kibernetikus Ketrec",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "El dobsz egy kis mûszert, ami aktiválással mûködik, egy körben szürke 'füstöt' fogsz kapni, ami smoke-ként funkcionál, a kör közepén nincs 'füst' csak egy körbe beláthatóság, körbõl kiláthatóság nincs."
+        },
+        {
+            "name": "Kém Kamera",
+            "type": "szignatúra",
+            "price": "Ingyenes",
+            "description": "Egy falra dobható kamerát tudsz tenni a falakra, ezt is ugyan úgy aktiválni kell, vagyis belépni a kamerába azzal a gombbal amivel eldobtad. Körbe tudsz vele nézni, felfedezni az ellenfelet, és akár lõni is tudsz vele az ellenségre egy mûszert amivel megfogja jeleníteni neked a térképen, meg a falon át az adott ellenséget."
+        },
+        {
+            "name": "Neurális Lopás",
+            "type": "Végsõ/Ultimate",
+            "price": "7 Ultimate pont",
+            "description": "Egy halott ellenséghez kell futnod, és beaktiválni rá a képességed, így megmutatja a falon keresztül és a térképen is az ellenfeleket akik életben vannak még."
+        }
+    ],
+        "img": "https://imgur.com/a/dv6R46T"
+    },
+    {
+        "name": "Jett",
+        "origin": "Dél-Korea",
+        "description": "Jett agilis és kitérõ harci stílusa lehetõvé teszi, hogy senki más ne vállaljon kockázatot. Körökkel elõrébb jár, és lecsap az ellenfélre, még mielõtt megtudnák, mi vár rájuk.",
+        "ultimate": "6",
+        "skills": [
+          {
+            "name": "Felhõszakadás",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Eltudsz dobni egy felhõ 'smoke-ot' ami igaz, nem sokáig lesz ott, de ennek ellenére 3at tudsz belõle venni."
+        },
+        {
+            "name": "Feláramlás",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "A képesség elnyomásával felugrasz egy magasat, ezzel eltudsz érni olyan pozíciokat ahol az ellenfél nem számíthat rád, ládákra, magasabb helyekre tudsz felugrani."
+        },
+        {
+            "name": "Hátszél",
+            "type": "szignatúra",
+            "price": "Ingyenes",
+            "description": "A képesség elnyomávásal elugrasz egy helyre, itt nem magasságot ugrasz, hanem egy távot teszel meg rövid idõ alatt, szóval vízszintesen ugrasz el az egyik helyrõl a másikra."
+        },
+        {
+            "name": "Pengevihar",
+            "type": "Végsõ/Ultimate",
+            "price": "6 Ultimate pont",
+            "description": "Kapsz 5 darab kést, és bal-jobb klikkel tudod irányítani, hogy mire szeretnéd használni. Bal klikkel 1 darab kést dobsz el nagy sebességgel, amire nem lehet reagálni az ellenfélnek olyan gyors. A jobb klikkel, ha nem vagy biztos az 1 késes megoldásban, akkor a ezzel eltudod dobni az összeset egyszerre, így az ellenfél az 5 késnek a sebzését kapja meg. Ha megölsz az Ultimate-eddel egy ellenfelet, akkor vissza kapod mind az 5 késed."
+        }
+    ],
+        "img": "https://imgur.com/a/sareYVE"
+    },
+    {
+        "name": "Omen",
+        "origin": "Ismeretlen",
+        "description": "Omen az árnyékban vadászik. Vakossá teszi az ellenséget, teleportál a terepen, majd hagyja, hogy a paranoia megfélemlítse az ellenfelet, hogy kiderüljön, merre lehet a következõ ellenség.",
+        "ultimate": "7",
+        "skills": [
+          {
+            "name": "Leplezett Lépés",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Ahová nézel, egy kisebb körben bárhová eltudsz teleportálni például dobozokra, magasabb pozíciókra"
+        },
+        {
+            "name": "Paranoia",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "Nevezhetjük bevakításnak is, de nem teljesen vakul be az ellenfél csak elég kis körben tud látni az ellenfél, a képesség neve átadja a jelentését."
+        },
+        {
+            "name": "Sötétségbe Borító",
+            "type": "szignatúra",
+            "price": "ingyenes",
+            "description": "Egy füst vagyis 'smoke' képesség, amit az egész pályán bárhová eltudsz nyomni, jobb klikkel tudod távolabbra vinni és amivel elnyomtad a képességed azzal tudod visszább húzni magadhoz, bal klikkel pedig ellövöd. A mini térképeden pedig tudod figyelni hova is lövöd a képességed."
+        },
+        {
+            "name": "Az árnyékból",
+            "type": "Végsõ/Ultimate",
+            "price": "7 Ultimate pont",
+            "description": "Az egész pályán bárhova betudsz teleportálni, és amikor elnyomtad, hogy hová szeretnél teleportálni, akkor körbe tudsz nézni ott ahova érkezel pár másodpercig, ez idõ alatt, ha meglõ egy ellenség akkor vissza mész az eredeti helyre ahonnan jöttél."
+        }
+    ],
+        "img": "https://imgur.com/a/o93EBX4"
+    },
+    {
+        "name": "Phoenix",
+        "origin": "Egyesült Királyság",
+        "description": "A Phoenix egy támadó ügynök, aki az ellenségek legyõzésére szakosodik, miközben megrontja a lövöldözõs képességüket. Akik szeretnek agresszív játék módot folytatni , azok nagyon élvezik ennek az ügynöknek a játékmenetét.",
+        "ultimate": "6",
+        "skills": [
+          {
+            "name": "Láng",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "Amerre elnézel és elnyomod a képességed, odáig egy láng lobban fel tõled kezdve és falként funkcionál, ebben az ellenfél sebzõdik, míg te gyógyulsz."
+        },
+        {
+            "name": "Csavart Labda",
+            "type": "alap",
+            "price": "200",
+            "description": "Jobb és bal klikkel tudod elhasználni, ha jobb klikkelsz, akkor jobb irányba kis ívben eldob egy gömböt ami bevakítja az ellenfelet, ugyan egy a bal klikkel is, csak az balra dobja az ívelt gömböt."
+        },
+        {
+            "name": "Forró Kezek",
+            "type": "szignatúra",
+            "price": "ingyenes",
+            "description": "Egy molotov bombát tudsz eldobni ahova szeretnél, ebbe, ha beleállsz akkor gyógyulsz, az ellenfél pedig elég nagy sebzést kap,  ha beleáll. Fontos, hogy a csapattársadat NEM gyógyítja, ugyan úgy sebzi, mint az ellenfeledet."
+        },
+        {
+            "name": "Vissza Futás",
+            "type": "Végsõ/Ultimate",
+            "price": "6 Ultimate pont",
+            "description": "Csinálsz magadból egy klónt és ugyan úgy tudsz lõni, menni, ellenséget ölni, mint Ultimate nélkül, annyi különbséggel, ha megölnek téged Ultimate közben, akkor vissza teleportálsz oda, ahol elnyomtad a képességed, vagy ha lejár az Ultimate ideje."
+        }
+    ],
+        "img": "https://imgur.com/a/ZHDH4Xa"
+    },
+    {
+        "name": "Raze",
+        "origin": "Brazília",
+        "description": "A Raze szereti a robbanóanyagokat. A tompa, erõszakos traumatikus játékának köszönhetõen nagy adag „BOOM”-al kitakarítja az ellenségeket bárhonnan és bármikor.",
+        "ultimate": "6",
+        "skills": [
+          {
+            "name": "BOOM Robot",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "A robotot eldobván, az faltól-falig járja az útját, míg egy ellenséget észre nem vesz és 'ráfut', kilõhetõ képesség az ellenfél számára. Viszont, ha nem talál ellenfelet magának akkor egyszerûen csak szét esik."
+        },
+        {
+            "name": "Robbanó Csomag",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "El tudsz dobni egy robbanócsomagot, amely rátapad bármilyen felülethez. Használd újra a képességet a lerakás után, hogy felrobbanjon, az ellenfelet és a csapattársakat is sebzi, de téged feltud dobni magasabb pontra. Van esés sebzés is amit akkor szenvedsz el, ha magasra dobod fel magad és utána leesel."
+        },
+        {
+            "name": "Festõ Bomba",
+            "type": "szignatúra",
+            "price": "ingyenes",
+            "description": "Ez a képesség egy gránátnak felel meg, amit eldobsz, felrobban és utána pedig a 'sörétek' (4 darab) tovább robbanak, elég nagy sebzést tudsz ezzel mérni, akár egy sarokban levárónak."
+        },
+        {
+            "name": "BOOM Rakéta",
+            "type": "Végsõ/Ultimate",
+            "price": "6 Ultimate pont",
+            "description": "Kilõsz egy BOOM rakétát, téged hátra lök, olyan erõs tüzérségrõl beszélünk. A rakéta sebzése orbitálisat üt az ellenfeleden."
+        }
+    ],
+        "img": "https://imgur.com/a/wi3zZ10"
+    },
+    {
+        "name": "Sage",
+        "origin": "Kína",
+        "description": "Sage biztonságot teremt magának és a csapatának, bárhová is megy. Az elhullott csapattársak újjáélesztése és az erõszakos támadások elkerülése érdekében nyugodt központot nyújt a pokoli csatatérhez. A mai napig legszembetûnõbb támogató karakter Kínából származik, és olyan gömböket hoz, amelyek gyógyítják a szövetségeseket, lassítják az ellenségeket, és akadályokat teremtenek a földrõl, hogy akadályozzák a mérkõzés menetét. Végsõ képessége lehetõvé teszi neki, hogy feltámasszon egy halott szövetségest, ami jelentõs egy visszatérés nélküli játékban.",
+        "ultimate": "7",
+        "skills": [
+          {
+            "name": "Akadály gömb",
+            "type": "alap",
+            "price": "400 kredit",
+            "description": "Egy jég falat tudsz lehelyezni, ami 4 részbõl áll, ez tudja az ellenfeledet blokkolni, vagy akár 'boost'-ként is használhatod, ha magad alá teszed, ezzel magasabb pontot tudsz elérni a talajhoz képest. Ez a fal kilõhetõ, de egy idõ után elkezd olvadni így kevesebb élete lesz a falnak, a végén egy idõ után teljesen megsemmisül."
+        },
+        {
+            "name": "Lassító gömb",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Egy gömböt eldobsz egy helyre ahová szeretnéd, és ott egy jég padló fog megjelenni, ami mindenkit lassít abban a körben ahol ez a jég van, téged is beleértve. Ha ezen valaki áthalad annak hangja is van."
+        },
+        {
+            "name": "Gyógyító gömb",
+            "type": "szignatúra",
+            "price": "Ingyenes",
+            "description": "Ezzel a képességgel magadat és a csapattársaidat is tudod gyógyítani, bal klikkel társaid, jobb klikkel magadat gyógyítod."
+        },
+        {
+            "name": "Feltámadás",
+            "type": "Végsõ/Ultimate",
+            "price": "7 Ultimate pont",
+            "description": "Ha meghal egy csapattársad akkor oda mész hozzá és rányomod az Ultimate képességedet, ezzel felélesztve õt maximum életerõn."
+        }
+    ],
+        "img": "https://imgur.com/a/OFA5I2O"
+    },
+    {
+        "name": "Sova",
+        "origin": "Oroszország",
+        "description": "A Sova könyörtelen hatékonysággal és pontossággal nyomon követi, megtalálja és megmutatja a csapatának az ellenségeket. Szokásos íja és hihetetlen cserkész képességei biztosítják, hogy még ha futsz is, nem tudsz elrejtõzni elõle.",
+        "ultimate": "7",
+        "skills": [
+          {
+            "name": "Sokkoló Nyílvesszõ",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Egy nyilat lõsz kivele, és ahova érkezik ott egy burokban sokkoló hatást mér, ami sebzi az ellenfeleket. Ezt a képességet tudod korrigálni azzal, hogy hányat pattanjon a falon akár a földön, 0-1-2 ezek közül lehet választani a jobb klikkel."
+        },
+        {
+            "name": "Bagoly Drón",
+            "type": "alap",
+            "price": "300 kredit",
+            "description": "Ez egy drón, amit ha beaktiválsz, tudsz vele repülni, és feltérképezni az ellenséges területet. Azonban tudsz vele lõni is, ha eltalálsz vele egy ellenfelet akkor rálátást tudsz vele biztosítani a csapatodnak. A drón megsemmisül ha elfogyott az üzemanyaga."
+        },
+        {
+            "name": "Felderítõ Nyílvesszõ",
+            "type": "szignatúra",
+            "price": "ingyenes",
+            "description": "Ezt a képességet kitudod lõni ugyan úgy, mint a 'Sokkoló Nyílvesszõ'-det, ez azonban 3x leszkenneli a területet és ha ellenséget is bemér, azt jelzi az egész csapatod számára. Ezt is ugyan úgy tudod állítani mennyit pattanjon, 0-1-2. Ezt az ellenfeled bármikor kitudja lõni."
+        },
+        {
+            "name": "Vadászok Dühe",
+            "type": "Végsõ/Ultimate",
+            "price": "7 Ultimate pont",
+            "description": "Ez egy mindenen áthatoló, nagyot sebzõ képesség. Ugyan úgy 'nyilat' lõsz kivele, csak egy kicsit másképpen, körübelül az egész pályán áttudsz vele lõni és elég nagy meglepetést tudsz vele okozni."
+        }
+    ],
+        "img": "https://imgur.com/a/w2dDfOF"
+    },
+    {
+        "name": "Viper",
+        "origin": "Amerikai Egyesült Államok (USA)",
+        "description": "A Viper egy sor mérgezõ vegyi eszközt telepít a csatatér irányítására és az ellenség látásának megrontására. Ha a méreganyagok nem ölik meg zsákmányát, akkor az elméjének játékai biztosan meg fognak fogni. Egy ragadozó, amely méreggel és vegyi háborúval foglalkozik. Robbanó lövedékeket bocsát ki, amelyek savot öntenek a csatatéren, valamint mérgezõgáz-kibocsátót és mérgezõgáz-szûrõt, hogy megakadályozzák az áthaladást. Végsõ soron mérgezõ felhõt bocsát ki, amely elrejti a helyét, és rávilágít az ellenségekre, akik belebotlanak.",
+        "ultimate": "7",
+        "skills": [
+          {
+            "name": "Kígyó Harapás",
+            "type": "alap",
+            "price": "100 kredit",
+            "description": "Kilõsz vele egy méreg kapszulát, ami mérgezõ tócsát alkot egy kis körben, ami mindenkit sebez, téged is beleértve."
+        },
+        {
+            "name": "Méreg Felhõ",
+            "type": "alap",
+            "price": "200 kredit",
+            "description": "Ez egy smoke-ként funkcionáló méreg felhõ, amiben az enemy sebzõdik, de ha kijön a képességbõl akkor vissza tölti azt az életerõt, amit levett. Neked sokkal jobb a látótered benne, mint egy ellenfélnek. Csak akkor lép mûködésbe, ha aktiválod. Addig fog mûködni ameddig el-nem fogy a mérged, vagy még ki-nem kapcsolod. Feltudod venni a földrõl és újabb pozícióra eltudod dobni. Ez a képesség összekapcsolodódik a 3-as számú képeségeddel."
+        },
+        {
+            "name": "Mérgezõ Képernyõ",
+            "type": "szignatúra",
+            "price": "ingyenes",
+            "description": "Ezt eltudod nyomni egy hosszú távra, ahol egy sorban kis chipeket tesz le amiben méreg van. Ha beaktiválod egy zöld falat hoz létre, amin nem lehet  átlátni, ha az ellenfél beleáll, akkor sebzi, de amint kiment belõle vissza tölti az életerejét, amennyi volt neki mikor belement. A képességed te tudod kapcsolgatni, vagy akkor áll le amikor elfogy a mérged. (A méreg vissza tölt, amint egyik képességed se aktív)"
+        },
+        {
+            "name": "Vipera Verem",
+            "type": "Végsõ/Ultimate",
+            "price": "7 Ultimate pont",
+            "description": "Ezt letudod helyezni és óriási körben egy hatalmas smoke-ot helyezel le, amiben az ellenségek neked rikító pirosban fognak megjelenni (ebben is sebzi minimálisan az ellenfelet, amint kilép belõle vissza tölt az életereje). A körbõl ki nem lehet látni, és kívülrõl se be. Addig van életben ez a képességed, ameddig benne tartózkodsz, amint kimész egy idõ után lefog ereszkedni a méreg. (Ezt mutatni fogja egy sáv)"
+        }
+    ],
+        "img": "https://imgur.com/a/wPMccdI"
+    }
+]
+}
